@@ -1,7 +1,7 @@
->517501533 ref|YP_008136234.1 NSP1-1 [Rotavirus G chicken/03V0567/DEU/2003] db="rtvg_db" gene="NSP1-1" note="synonym: interferon antagonist protein-1" product="non-structural protein 1-1" length=106 splice_form="e318"
+>517501533 ref|YP_008136234.1 NSP1-1 [Rotavirus G chicken/03V0567/DEU/2003] db="rtvg_db" gene="NSP1-1" shared_cds="NSP1-2" note="synonym: interferon antagonist protein-1" product="non-structural protein 1-1" length=106 splice_form="e318"
 MGNSNTNIQVSQQNTHIQASDSKLELHDQKTATLQSTQLLISIGAIIIVALILLLLFSLI
 LNCYLCNRLKKKNGYLKRERKISNLRDKGLDKFILDKPNDITSGCV
->517501534 ref|YP_008136235.1 NSP1-2 [Rotavirus G chicken/03V0567/DEU/2003] db="rtvg_db" gene="NSP1-2" note="synonym: interferon antagonist protein-2" product="non-structural protein 1-2" length=324 splice_form="e972"
+>517501534 ref|YP_008136235.1 NSP1-2 [Rotavirus G chicken/03V0567/DEU/2003] db="rtvg_db" gene="NSP1-2" shared_cds="NSP1-1" note="synonym: interferon antagonist protein-2" product="non-structural protein 1-2" length=324 splice_form="e972"
 MVISNEKEKFPISGTKDWINSYLINPMISPVVVYEWKDDIADLGMITPFNECSVVPGEKL
 LIHKVCAIKHEHWCGHLHVPDQERSFWKHESRLCMATCDKIFWPCGAKKIRIDGKTMEGD
 DFVRCKCGQFYPTKIIKNGDFTVLTFCANDYAAIEIGMSYGEQCRNCKKTYRYYRAANGF
