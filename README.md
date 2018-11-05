@@ -19,9 +19,9 @@ The viral databases are simple fasta files.
 Each viral database may optionally have its own VIGOR4 .INI
 configuration file which overrides the default settings for that virus
 and matched genes. By default, VIGOR4 looks for a virus specific
-configuration file by removing the \_db part of the viral database and
-appending the .ini suffix. For example, the Flu A database is named
-"flua_db" and the flua configuration files is "flua.ini"".
+configuration file by appending the .ini suffix. For example, the Flu
+A database is named "flua_db" and the flua configuration files is
+"flua_db.ini"".
 
 ### Configuration Sections
 
