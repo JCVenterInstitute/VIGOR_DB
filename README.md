@@ -203,10 +203,10 @@ min_exon_size
         Settable levels                gene,virus
         Description:                   Minimum sequence length of an exon
 
-min_functional_length
+min_functional_len
 
-        Environment variable:          VIGOR_MIN_FUNCTIONAL_LENGTH
-        System.property:               vigor.min_functional_length
+        Environment variable:          VIGOR_MIN_FUNCTIONAL_LEN
+        System.property:               vigor.min_functional_len
         Settable levels                gene
         Description:                   Minimum functional length
 
