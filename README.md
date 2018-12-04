@@ -374,7 +374,7 @@ tiny_exon5
 ### Mature Peptide Files
 
 ## Current status
-
+Mammarenavirus
 The databases are in the process of migration from VIGOR3 to VIGOR4, but the following virus are considered production ready:
 
 * Influenza (A & B for human, avian, and swine)
@@ -385,4 +385,6 @@ The databases are in the process of migration from VIGOR3 to VIGOR4, but the fol
 * Respiratory Syncytial Virus
 * Rotavirus
 * Enterovirus
+* Lassa Mammarenavirus
+
 
