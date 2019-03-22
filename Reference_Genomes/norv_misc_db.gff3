@@ -1,0 +1,91 @@
+##sequence-region AY823305.2 1 7612
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=316620
+AY823305.2	Genbank	region	1	7612	.	+	.	ID=AY823305.2:1..7612;Dbxref=taxon:316620;country=USA;gbkey=Src;mol_type=genomic RNA;nat-host=swine;note=genogroup II;strain=OH-QW125/03/US
+AY823305.2	Genbank	CDS	8	5083	.	+	0	ID=cds-AAX32879.2;Dbxref=NCBI_GP:AAX32879.2;Name=AAX32879.2;gbkey=CDS;product=RNA-dependent RNA polymerase;protein_id=AAX32879.2
+AY823305.2	Genbank	CDS	5064	6737	.	+	0	ID=cds-AAX32880.1;Dbxref=NCBI_GP:AAX32880.1;Name=AAX32880.1;gbkey=CDS;product=capsid protein;protein_id=AAX32880.1
+AY823305.2	Genbank	CDS	6737	7564	.	+	0	ID=cds-AAX32881.1;Dbxref=NCBI_GP:AAX32881.1;Name=AAX32881.1;gbkey=CDS;product=VP2 small basic protein;protein_id=AAX32881.1
+AY823305.2	Genbank	three_prime_UTR	7565	7612	.	+	.	ID=id-AY823305.2:7565..7612;gbkey=3'UTR
+
+##sequence-region EU854589.1 1 7383
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=549341
+EU854589.1	Genbank	region	1	7383	.	+	.	ID=EU854589.1:1..7383;Dbxref=taxon:549341;collection-date=Jul-2007;country=Germany;gbkey=Src;genome=genomic;isolation-source=spleen of NOD-SCID;mol_type=genomic RNA;strain=mouse/Hannover1/2007/DEU
+EU854589.1	Genbank	CDS	6	5069	.	+	0	ID=cds-ACF72687.1;Dbxref=NCBI_GP:ACF72687.1;Name=ACF72687.1;gbkey=CDS;product=polyprotein;protein_id=ACF72687.1
+EU854589.1	Genbank	CDS	5056	6681	.	+	0	ID=cds-ACF72688.1;Dbxref=NCBI_GP:ACF72688.1;Name=ACF72688.1;gbkey=CDS;product=capsid protein;protein_id=ACF72688.1
+EU854589.1	Genbank	CDS	6681	7307	.	+	0	ID=cds-ACF72689.1;Dbxref=NCBI_GP:ACF72689.1;Name=ACF72689.1;gbkey=CDS;product=small basic protein;protein_id=ACF72689.1
+
+##sequence-region FJ692500.1 1 7637
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=673457
+FJ692500.1	Genbank	region	1	7637	.	+	.	ID=FJ692500.1:1..7637;Dbxref=taxon:673457;collection-date=Jul-2007;country=Hong Kong;gbkey=Src;mol_type=genomic RNA;nat-host=Canis lupus familiaris;strain=dog/GVI.1/HKU_Ca026F/2007/HKG
+FJ692500.1	Genbank	CDS	5	5080	.	+	0	ID=cds-ACV89839.1;Dbxref=NCBI_GP:ACV89839.1;Name=ACV89839.1;gbkey=CDS;product=ORF1 polyprotein;protein_id=ACV89839.1
+FJ692500.1	Genbank	CDS	5061	6647	.	+	0	ID=cds-ACV89840.1;Dbxref=NCBI_GP:ACV89840.1;Name=ACV89840.1;gbkey=CDS;product=VP1 capsid protein;protein_id=ACV89840.1
+FJ692500.1	Genbank	CDS	6647	7486	.	+	0	ID=cds-ACV89841.1;Dbxref=NCBI_GP:ACV89841.1;Name=ACV89841.1;gbkey=CDS;product=VP2 minor structural protein;protein_id=ACV89841.1
+FJ692500.1	Genbank	three_prime_UTR	7487	7634	.	+	.	ID=id-FJ692500.1:7487..7634;gbkey=3'UTR
+
+##sequence-region JF781268.1 1 7839
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1160949
+JF781268.1	Genbank	region	1	7839	.	+	.	ID=JF781268.1:1..7839;Dbxref=taxon:1160949;collection-date=2010;country=USA;gbkey=Src;genome=genomic;isolation-source=cat feces;mol_type=genomic RNA;nat-host=Felis catus;old-name=Norovirus feline/NoV/GIV.2/CU081210E/USA/2010;strain=CU081210E/USA/2010
+JF781268.1	Genbank	CDS	11	5251	.	+	0	ID=cds-AFD30969.1;Dbxref=NCBI_GP:AFD30969.1;Name=AFD30969.1;Note=ORF1;gbkey=CDS;product=nonstructural polyprotein;protein_id=AFD30969.1
+JF781268.1	Genbank	CDS	5235	6971	.	+	0	ID=cds-AFD30970.1;Dbxref=NCBI_GP:AFD30970.1;Name=AFD30970.1;Note=ORF2;gbkey=CDS;product=VP1;protein_id=AFD30970.1
+JF781268.1	Genbank	CDS	6971	7735	.	+	0	ID=cds-AFD30971.1;Dbxref=NCBI_GP:AFD30971.1;Name=AFD30971.1;Note=ORF3;gbkey=CDS;product=VP2;protein_id=AFD30971.1
+
+##sequence-region JQ613567.1 1 7527
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1183318
+JQ613567.1	Genbank	region	1	7527	.	+	.	ID=JQ613567.1:1..7527;Dbxref=taxon:1183318;collection-date=Dec-2010;country=Australia;gbkey=Src;genome=genomic;genotype=GIV.1;mol_type=genomic RNA;nat-host=Homo sapiens;strain=Hu/GIV.1/LakeMacquarie/NSW268O/2010/AU
+JQ613567.1	Genbank	five_prime_UTR	1	4	.	+	.	ID=id-JQ613567.1:1..4;gbkey=5'UTR
+JQ613567.1	Genbank	CDS	5	5068	.	+	0	ID=cds-AFJ21375.1;Dbxref=NCBI_GP:AFJ21375.1;Name=AFJ21375.1;Note=ORF1;gbkey=CDS;product=non-structural polyprotein;protein_id=AFJ21375.1
+JQ613567.1	Genbank	CDS	5049	6719	.	+	0	ID=cds-AFJ21376.1;Dbxref=NCBI_GP:AFJ21376.1;Name=AFJ21376.1;Note=major capsid protein;gbkey=CDS;product=VP1;protein_id=AFJ21376.1
+JQ613567.1	Genbank	CDS	6719	7447	.	+	0	ID=cds-AFJ21377.1;Dbxref=NCBI_GP:AFJ21377.1;Name=AFJ21377.1;Note=minor structural protein;gbkey=CDS;product=VP2;protein_id=AFJ21377.1
+JQ613567.1	Genbank	three_prime_UTR	7448	7527	.	+	.	ID=id-JQ613567.1:7448..7527;gbkey=3'UTR
+
+##sequence-region KJ955492.1 1 7564
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1507812
+KJ955492.1	Genbank	region	1	7564	.	+	.	ID=KJ955492.1:1..7564;Dbxref=taxon:1507812;collection-date=Dec-2012;country=China;gbkey=Src;genome=genomic;genotype=GII.4;mol_type=genomic RNA;nat-host=Homo sapiens;strain=JB031230054/Luohu/OB/12/2012/SZ/CHN
+KJ955492.1	Genbank	five_prime_UTR	1	4	.	+	.	ID=id-KJ955492.1:1..4;gbkey=5'UTR
+KJ955492.1	Genbank	CDS	5	5104	.	+	0	ID=cds-AIL49839.1;Dbxref=NCBI_GP:AIL49839.1;Name=AIL49839.1;gbkey=CDS;product=non-structural polyprotein;protein_id=AIL49839.1
+KJ955492.1	Genbank	CDS	5085	6707	.	+	0	ID=cds-AIL49840.1;Dbxref=NCBI_GP:AIL49840.1;Name=AIL49840.1;gbkey=CDS;product=major capsid protein;protein_id=AIL49840.1
+KJ955492.1	Genbank	CDS	6707	7513	.	+	0	ID=cds-AIL49841.1;Dbxref=NCBI_GP:AIL49841.1;Name=AIL49841.1;gbkey=CDS;product=minor capsid protein;protein_id=AIL49841.1
+KJ955492.1	Genbank	three_prime_UTR	7514	7564	.	+	.	ID=id-KJ955492.1:7514..7564;gbkey=3'UTR
+
+##sequence-region KX396056.1 1 7753
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1903318
+KX396056.1	Genbank	region	1	7753	.	+	.	ID=KX396056.1:1..7753;Dbxref=taxon:1903318;clone=1;gbkey=Src;genome=genomic;mol_type=genomic RNA;strain=SimianNoV-nj
+KX396056.1	Genbank	CDS	66	5375	.	+	0	ID=cds-AOR51554.1;Dbxref=NCBI_GP:AOR51554.1;Name=AOR51554.1;gbkey=CDS;product=polyprotein;protein_id=AOR51554.1
+KX396056.1	Genbank	gene	5359	6990	.	+	.	ID=gene-VP1;Name=VP1;gbkey=Gene;gene=VP1;gene_biotype=protein_coding
+KX396056.1	Genbank	CDS	5359	6990	.	+	0	ID=cds-AOR51555.1;Parent=gene-VP1;Dbxref=NCBI_GP:AOR51555.1;Name=AOR51555.1;gbkey=CDS;gene=VP1;product=VP1;protein_id=AOR51555.1
+KX396056.1	Genbank	gene	6990	7637	.	+	.	ID=gene-VP2;Name=VP2;gbkey=Gene;gene=VP2;gene_biotype=protein_coding
+KX396056.1	Genbank	CDS	6990	7637	.	+	0	ID=cds-AOR51556.1;Parent=gene-VP2;Dbxref=NCBI_GP:AOR51556.1;Name=AOR51556.1;gbkey=CDS;gene=VP2;product=VP2;protein_id=AOR51556.1
+
+##sequence-region MF373609.1 1 7368
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1514709
+MF373609.1	Genbank	region	1	7368	.	+	.	ID=MF373609.1:1..7368;Dbxref=taxon:1514709;collection-date=Jun-2016;country=China: Fujian;gbkey=Src;genome=genomic;isolate=NPIH26;isolation-source=intestine;mol_type=genomic RNA;nat-host=Rhinolophus affinis
+MF373609.1	Genbank	five_prime_UTR	1	38	.	+	.	ID=id-MF373609.1:1..38;gbkey=5'UTR
+MF373609.1	Genbank	gene	39	4907	.	+	.	ID=gene-ORF1;Name=ORF1;gbkey=Gene;gene=ORF1;gene_biotype=protein_coding
+MF373609.1	Genbank	CDS	39	4907	.	+	0	ID=cds-AWI67137.1;Parent=gene-ORF1;Dbxref=NCBI_GP:AWI67137.1;Name=AWI67137.1;gbkey=CDS;gene=ORF1;product=nonstructural polyprotein;protein_id=AWI67137.1
+MF373609.1	Genbank	gene	4891	6492	.	+	.	ID=gene-ORF2;Name=ORF2;gbkey=Gene;gene=ORF2;gene_biotype=protein_coding
+MF373609.1	Genbank	CDS	4891	6492	.	+	0	ID=cds-AWI67138.1;Parent=gene-ORF2;Dbxref=NCBI_GP:AWI67138.1;Name=AWI67138.1;gbkey=CDS;gene=ORF2;product=VP1;protein_id=AWI67138.1
+MF373609.1	Genbank	gene	6489	7268	.	+	.	ID=gene-ORF3;Name=ORF3;gbkey=Gene;gene=ORF3;gene_biotype=protein_coding
+MF373609.1	Genbank	CDS	6489	7268	.	+	0	ID=cds-AWI67139.1;Parent=gene-ORF3;Dbxref=NCBI_GP:AWI67139.1;Name=AWI67139.1;gbkey=CDS;gene=ORF3;product=VP2;protein_id=AWI67139.1
+MF373609.1	Genbank	three_prime_UTR	7269	7368	.	+	.	ID=id-7;gbkey=3'UTR
+
+##sequence-region MK159169.1 1 7321
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=340017
+MK159169.1	Genbank	region	1	7321	.	+	.	ID=MK159169.1:1..7321;Dbxref=taxon:340017;collected-by=YueLin.Wang;collection-date=10-Jan-2018;country=China;gbkey=Src;genome=genomic;isolate=Bo/BET-17/18/CH;isolation-source=feces;lat-lon=41.10 N 122.98 E;mol_type=genomic RNA;nat-host=bovine
+MK159169.1	Genbank	gene	22	5076	.	+	.	ID=gene-ORF1;Name=ORF1;gbkey=Gene;gene=ORF1;gene_biotype=protein_coding
+MK159169.1	Genbank	CDS	22	5076	.	+	0	ID=cds-AZB48846.1;Parent=gene-ORF1;Dbxref=NCBI_GP:AZB48846.1;Name=AZB48846.1;gbkey=CDS;gene=ORF1;product=nonstructural polyprotein;protein_id=AZB48846.1
+MK159169.1	Genbank	gene	5063	6637	.	+	.	ID=gene-ORF2;Name=ORF2;gbkey=Gene;gene=ORF2;gene_biotype=protein_coding
+MK159169.1	Genbank	CDS	5063	6637	.	+	0	ID=cds-AZB48848.1;Parent=gene-ORF2;Dbxref=NCBI_GP:AZB48848.1;Name=AZB48848.1;gbkey=CDS;gene=ORF2;product=VP1;protein_id=AZB48848.1
+MK159169.1	Genbank	gene	6627	7265	.	+	.	ID=gene-ORF3;Name=ORF3;gbkey=Gene;gene=ORF3;gene_biotype=protein_coding
+MK159169.1	Genbank	CDS	6627	7265	.	+	0	ID=cds-AZB48847.1;Parent=gene-ORF3;Dbxref=NCBI_GP:AZB48847.1;Name=AZB48847.1;gbkey=CDS;gene=ORF3;product=VP2;protein_id=AZB48847.1
+
+##sequence-region NC_001959.2 1 7654
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=122928
+NC_001959.2	RefSeq	region	1	7654	.	+	.	ID=NC_001959.2:1..7654;Dbxref=taxon:122928;gbkey=Src;genome=genomic;mol_type=genomic RNA
+NC_001959.2	RefSeq	five_prime_UTR	1	4	.	+	.	ID=id-NC_001959.2:1..4;gbkey=5'UTR
+NC_001959.2	RefSeq	gene	5	5374	.	+	.	ID=gene-NoVGI_gp1;Dbxref=GeneID:1491970;Name=ORF1;gbkey=Gene;gene=ORF1;gene_biotype=protein_coding;locus_tag=NoVGI_gp1;old_locus_tag=NVgp1
+NC_001959.2	RefSeq	CDS	5	5374	.	+	0	ID=cds-NP_056820.1;Parent=gene-NoVGI_gp1;Dbxref=Genbank:NP_056820.1,GeneID:1491970;Name=NP_056820.1;Note=ORF1%3B sequence homologies to 2C helicase%2C 3C protease%2C and 3D RNA-dependent RNA polymerase of picornavirus;gbkey=CDS;gene=ORF1;locus_tag=NoVGI_gp1;product=nonstructural polyprotein;protein_id=NP_056820.1
+NC_001959.2	RefSeq	gene	5358	6950	.	+	.	ID=gene-NoVGI_gp2;Dbxref=GeneID:1491972;Name=ORF2;gbkey=Gene;gene=ORF2;gene_biotype=protein_coding;locus_tag=NoVGI_gp2;old_locus_tag=NVgp2
+NC_001959.2	RefSeq	CDS	5358	6950	.	+	0	ID=cds-NP_056821.2;Parent=gene-NoVGI_gp2;Dbxref=Genbank:NP_056821.2,GeneID:1491972;Name=NP_056821.2;Note=ORF2%3B 58kd capsid protein%3B major capsid protein;gbkey=CDS;gene=ORF2;locus_tag=NoVGI_gp2;product=VP1;protein_id=NP_056821.2
+NC_001959.2	RefSeq	gene	6950	7588	.	+	.	ID=gene-NoVGI_gp3;Dbxref=GeneID:1491971;Name=ORF3;gbkey=Gene;gene=ORF3;gene_biotype=protein_coding;locus_tag=NoVGI_gp3;old_locus_tag=NVgp3
+NC_001959.2	RefSeq	CDS	6950	7588	.	+	0	ID=cds-NP_056822.1;Parent=gene-NoVGI_gp3;Dbxref=Genbank:NP_056822.1,GeneID:1491971;Name=NP_056822.1;Note=ORF3%3B minor structural protein%3B small basic protein;gbkey=CDS;gene=ORF3;locus_tag=NoVGI_gp3;product=VP2;protein_id=NP_056822.1
+NC_001959.2	RefSeq	three_prime_UTR	7589	7654	.	+	.	ID=id-NC_001959.2:7589..7654;gbkey=3'UTR
+
