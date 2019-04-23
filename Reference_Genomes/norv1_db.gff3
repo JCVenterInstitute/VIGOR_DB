@@ -44,7 +44,7 @@ KJ196298.1	Genbank	CDS	7019	7660	.	+	0	ID=cds-AII73784.1;Parent=gene-VP2;Dbxref=
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=122928
 KY934262.1	Genbank	region	1	7778	.	+	.	ID=KY934262.1:1..7778;Dbxref=taxon:122928;collection-date=04-Mar-2015;country=China;gbkey=Src;genome=genomic;genotype=GI.3;isolate=0304-19;isolation-source=feces;mol_type=genomic RNA
 KY934262.1	Genbank	gene	5	5404	.	+	.	ID=KY934262.1.1;Name=POL;
-KY934262.1	Genbank	CDS	5	5404	.	+	0	ID=cds-ARI71146.1;Dbxref=NCBI_GP:ARI71146.1;Name=ARI71146.1;gbkey=CDS;product=nonstructural polyprotein;protein_id=ARI71146.1
+KY934262.1	Genbank	CDS	5	5404	.	+	0	ID=cds-ARI71146.1;Parent=KY934262.1.1;Dbxref=NCBI_GP:ARI71146.1;Name=ARI71146.1;gbkey=CDS;product=nonstructural polyprotein;protein_id=ARI71146.1
 KY934262.1	Genbank	gene	5388	7025	.	+	.	ID=KY934262.1.2;Name=VP1;
 KY934262.1	Genbank	CDS	5388	7025	.	+	0	ID=cds-ARI71147.1;Parent=KY934262.1.2;Dbxref=NCBI_GP:ARI71147.1;Name=ARI71147.1;gbkey=CDS;product=capsid protein;protein_id=ARI71147.1
 KY934262.1	Genbank	gene	7025	7672	.	+	.	ID=KY934262.1.3;Name=VP2;

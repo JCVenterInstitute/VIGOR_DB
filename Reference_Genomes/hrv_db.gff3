@@ -1,199 +1,220 @@
 ##sequence-region AB469183.1 1 8170
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=39054
 AB469183.1	DDBJ	region	1	8170	.	+	.	ID=AB469183.1:1..8170;Dbxref=taxon:39054;country=Malaysia;gb-acronym=EV-A71;gbkey=Src;mol_type=genomic RNA;old-name=Human enterovirus 71;strain=EV71-GFP
-AB469183.1	DDBJ	CDS	746	8062	.	+	0	ID=cds-BAG82822.1;Dbxref=NCBI_GP:BAG82822.1;Name=BAG82822.1;gbkey=CDS;product=polyprotein;protein_id=BAG82822.1
+AB469183.1	DDBJ	gene	746	8062	.	+	.	ID=AB469183.1;Name=POL;
+AB469183.1	DDBJ	CDS	746	8062	.	+	0	ID=cds-BAG82822.1;Parent=AB469183.1;Dbxref=NCBI_GP:BAG82822.1;Name=BAG82822.1;gbkey=CDS;product=polyprotein;protein_id=BAG82822.1
 
 ##sequence-region DQ201177.1 1 7391
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=12090
 DQ201177.1	Genbank	region	1	7391	.	+	.	ID=DQ201177.1:1..7391;Dbxref=taxon:12090,ATCC:VR-836;country=Japan;gbkey=Src;isolate=ATCC VR-836;mol_type=genomic RNA;serotype=70;strain=J670/71
-DQ201177.1	Genbank	CDS	728	7312	.	+	0	ID=cds-ABA43708.1;Dbxref=NCBI_GP:ABA43708.1;Name=ABA43708.1;gbkey=CDS;product=polyprotein;protein_id=ABA43708.1
+DQ201177.1	Genbank	gene	728	7312	.	+	.	ID=DQ201177.1.1;Name=POL;
+DQ201177.1	Genbank	CDS	728	7312	.	+	0	ID=cds-ABA43708.1;Parent=DQ201177.1.1;Dbxref=NCBI_GP:ABA43708.1;Name=ABA43708.1;gbkey=CDS;product=polyprotein;protein_id=ABA43708.1
 
 ##sequence-region DQ473486.1 1 7216
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=147681
 DQ473486.1	Genbank	region	1	7216	.	+	.	ID=DQ473486.1:1..7216;Dbxref=taxon:147681;country=USA;gbkey=Src;genome=genomic;mol_type=genomic RNA;old-name=Human rhinovirus 6;serotype=6
-DQ473486.1	Genbank	CDS	628	7167	.	+	0	ID=cds-ABF51180.1;Dbxref=NCBI_GP:ABF51180.1;Name=ABF51180.1;gbkey=CDS;product=polyprotein;protein_id=ABF51180.1
+DQ473486.1	Genbank	gene	628	7167	.	+	.	ID=DQ473486.1.1;Name=POL;
+DQ473486.1	Genbank	CDS	628	7167	.	+	0	ID=cds-ABF51180.1;Parent=DQ473486.1.1;Dbxref=NCBI_GP:ABF51180.1;Name=ABF51180.1;gbkey=CDS;product=polyprotein;protein_id=ABF51180.1
 
 ##sequence-region DQ473502.1 1 7129
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=185931
 DQ473502.1	Genbank	region	1	7129	.	+	.	ID=DQ473502.1:1..7129;Dbxref=taxon:185931;country=USA;gbkey=Src;genome=genomic;mol_type=genomic RNA;old-name=Human rhinovirus 76;serotype=76
-DQ473502.1	Genbank	CDS	620	7087	.	+	0	ID=cds-ABF51196.1;Dbxref=NCBI_GP:ABF51196.1;Name=ABF51196.1;gbkey=CDS;product=polyprotein;protein_id=ABF51196.1
+DQ473502.1	Genbank	gene	620	7087	.	+	.	ID=DQ473502.1.1;Name=POL;
+DQ473502.1	Genbank	CDS	620	7087	.	+	0	ID=cds-ABF51196.1;Parent=DQ473502.1.1;Dbxref=NCBI_GP:ABF51196.1;Name=ABF51196.1;gbkey=CDS;product=polyprotein;protein_id=ABF51196.1
 
 ##sequence-region EF015886.1 1 7478
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=325445
 EF015886.1	Genbank	region	1	7478	.	+	.	ID=EF015886.1:1..7478;Dbxref=taxon:325445;country=Bangladesh;gb-acronym=EV-C96;gbkey=Src;mol_type=genomic RNA;old-name=Enterovirus 96;strain=BAN00-10488
 EF015886.1	Genbank	five_prime_UTR	1	746	.	+	.	ID=id-EF015886.1:1..746;gbkey=5'UTR
-EF015886.1	Genbank	CDS	747	7406	.	+	0	ID=cds-ABM54550.1;Dbxref=NCBI_GP:ABM54550.1;Name=ABM54550.1;gbkey=CDS;product=polyprotein;protein_id=ABM54550.1
+EF015886.1	Genbank	gene	747	7406	.	+	.	ID=EF015886.1.1;Name=POL;
+EF015886.1	Genbank	CDS	747	7406	.	+	0	ID=cds-ABM54550.1;Parent=EF015886.1.1;Dbxref=NCBI_GP:ABM54550.1;Name=ABM54550.1;gbkey=CDS;product=polyprotein;protein_id=ABM54550.1
 EF015886.1	Genbank	three_prime_UTR	7407	7478	.	+	.	ID=id-EF015886.1:7407..7478;gbkey=3'UTR
 
 ##sequence-region FJ713137.1 1 7407
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=39054
 FJ713137.1	Genbank	region	1	7407	.	+	.	ID=FJ713137.1:1..7407;Dbxref=taxon:39054;gb-acronym=EV-A71;gbkey=Src;isolation-source=stool;mol_type=genomic RNA;old-name=Human enterovirus 71;strain=Shanghai 036-2009
-FJ713137.1	Genbank	CDS	745	7326	.	+	0	ID=cds-ACN59569.1;Dbxref=NCBI_GP:ACN59569.1;Name=ACN59569.1;gbkey=CDS;product=polyprotein;protein_id=ACN59569.1
+FJ713137.1	Genbank	gene	745	7326	.	+	.	ID=FJ713137.1.1;Name=POL;
+FJ713137.1	Genbank	CDS	745	7326	.	+	0	ID=cds-ACN59569.1;Parent=FJ713137.1.1;Dbxref=NCBI_GP:ACN59569.1;Name=ACN59569.1;gbkey=CDS;product=polyprotein;protein_id=ACN59569.1
 
 ##sequence-region GU350629.1 1 6582
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=39054
 GU350629.1	Genbank	region	1	6582	.	+	.	ID=GU350629.1:1..6582;Dbxref=taxon:39054;country=China: FuYang%2C An Hui province;gb-acronym=EV-A71;gbkey=Src;mol_type=genomic RNA;nat-host=Homo sapiens;old-name=Human enterovirus 71;strain=Fuyang-0805a
-GU350629.1	Genbank	CDS	1	6582	.	+	0	ID=cds-ADB98030.1;Dbxref=NCBI_GP:ADB98030.1;Name=ADB98030.1;gbkey=CDS;product=polyprotein;protein_id=ADB98030.1
+GU350629.1	Genbank	gene	1	6582	.	+	.	ID=GU350629.1.1;Name=POL;
+GU350629.1	Genbank	CDS	1	6582	.	+	0	ID=cds-ADB98030.1;Parent=GU350629.1.1;Dbxref=NCBI_GP:ADB98030.1;Name=ADB98030.1;gbkey=CDS;product=polyprotein;protein_id=ADB98030.1
 
 ##sequence-region GU568096.2 1 7224
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=147712
 GU568096.2	Genbank	region	1	7224	.	+	.	ID=GU568096.2:1..7224;Dbxref=taxon:147712;collection-date=Oct-2007;country=China;gbkey=Src;genome=genomic;isolate=BCH214;isolation-source=nasopharyngeal aspirates from children;mol_type=genomic RNA;nat-host=Homo sapiens
 GU568096.2	Genbank	five_prime_UTR	1	633	.	+	.	ID=id-GU568096.2:1..633;gbkey=5'UTR
-GU568096.2	Genbank	CDS	634	7167	.	+	0	ID=cds-ADO24588.2;Dbxref=NCBI_GP:ADO24588.2;Name=ADO24588.2;gbkey=CDS;product=polyprotein;protein_id=ADO24588.2
+GU568096.2	Genbank	gene	634	7167	.	+	.	ID=GU568096.2.1;Name=POL;
+GU568096.2	Genbank	CDS	634	7167	.	+	0	ID=cds-ADO24588.2;Parent=GU568096.2.1;Dbxref=NCBI_GP:ADO24588.2;Name=ADO24588.2;gbkey=CDS;product=polyprotein;protein_id=ADO24588.2
 GU568096.2	Genbank	three_prime_UTR	7168	7224	.	+	.	ID=id-GU568096.2:7168..7224;gbkey=3'UTR
 
 ##sequence-region HQ123443.2 1 6429
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=463676
 HQ123443.2	Genbank	region	1	6429	.	+	.	ID=HQ123443.2:1..6429;Dbxref=taxon:463676;collection-date=04-Sep-2006;country=Thailand;gbkey=Src;genome=genomic;isolation-source=nasopharyngeal aspirates of patients;mol_type=genomic RNA;nat-host=Homo sapiens;old-name=Human rhinovirus C;strain=CU184
-HQ123443.2	Genbank	CDS	1	6429	.	+	0	ID=cds-ADV57353.1;Dbxref=NCBI_GP:ADV57353.1;Name=ADV57353.1;gbkey=CDS;product=polyprotein;protein_id=ADV57353.1
+HQ123443.2	Genbank	gene	1	6429	.	+	.	ID=HQ123443.2.1;Name=POL;
+HQ123443.2	Genbank	CDS	1	6429	.	+	0	ID=cds-ADV57353.1;Parent=HQ123443.2.1;Dbxref=NCBI_GP:ADV57353.1;Name=ADV57353.1;gbkey=CDS;product=polyprotein;protein_id=ADV57353.1
 
-##sequence-region HQ647168.1 1 7419
+##sequence-region HQ647177.1 1 7419
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=39054
-HQ647168.1	Genbank	region	1	7419	.	+	.	ID=HQ647168.1:1..7419;Dbxref=taxon:39054;collection-date=Aug-2007;country=Canada;gb-acronym=EV-A71;gbkey=Src;genome=genomic;isolate=EV92_07;mol_type=genomic RNA;nat-host=Homo sapiens;old-name=Human enterovirus 71
-HQ647168.1	Genbank	CDS	96	6677	.	-	0	ID=cds-AEK98135.1;Dbxref=NCBI_GP:AEK98135.1;Name=AEK98135.1;gbkey=CDS;product=polyprotein;protein_id=AEK98135.1
+HQ647177.1	Genbank	region	1	7419	.	+	.	ID=HQ647177.1:1..7419;Dbxref=taxon:39054;collection-date=Aug-2007;country=Canada;gb-acronym=EV-A71;gbkey=Src;genome=genomic;isolate=EV073_07;mol_type=genomic RNA;nat-host=Homo sapiens;old-name=Human enterovirus 71
+HQ647177.1	Genbank	gene	743	7324	.	+	.	ID=HQ647177.1.1;Name=POL;
+HQ647177.1	Genbank	CDS	743	7324	.	+	0	ID=cds-AEK98144.1;Parent=HQ647177.1.1;Dbxref=NCBI_GP:AEK98144.1;Name=AEK98144.1;gbkey=CDS;product=polyprotein;protein_id=AEK98144.1
 
 ##sequence-region JF317017.1 1 7164
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=463676
 JF317017.1	Genbank	region	1	7164	.	+	.	ID=JF317017.1:1..7164;Dbxref=taxon:463676;collection-date=Dec-2008;country=China;gbkey=Src;genome=genomic;isolate=LZY101;isolation-source=nasopharyngeal aspirates of patients;mol_type=genomic RNA;nat-host=Homo sapiens;old-name=Human rhinovirus C
-JF317017.1	Genbank	CDS	617	7084	.	+	0	ID=cds-AEL31293.1;Dbxref=NCBI_GP:AEL31293.1;Name=AEL31293.1;gbkey=CDS;product=polyprotein;protein_id=AEL31293.1
+JF317017.1	Genbank	gene	617	7084	.	+	.	ID=JF317017.1.1;Name=POL;
+JF317017.1	Genbank	CDS	617	7084	.	+	0	ID=cds-AEL31293.1;Parent=JF317017.1.1;Dbxref=NCBI_GP:AEL31293.1;Name=AEL31293.1;gbkey=CDS;product=polyprotein;protein_id=AEL31293.1
 
 ##sequence-region JF742579.1 1 7456
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=12089
 JF742579.1	Genbank	region	1	7456	.	+	.	ID=JF742579.1:1..7456;Dbxref=taxon:12089;collection-date=2007;country=China;gb-acronym=CV-A24;gbkey=Src;genome=genomic;isolation-source=conjunctiva swab;mol_type=genomic RNA;nat-host=Homo sapiens;note=Hep2;old-name=Human coxsackievirus A24;strain=China/GD332/2007
-JF742579.1	Genbank	CDS	747	7391	.	+	0	ID=cds-AEO78972.1;Dbxref=NCBI_GP:AEO78972.1;Name=AEO78972.1;gbkey=CDS;product=polyprotein;protein_id=AEO78972.1
+JF742579.1	Genbank	gene	747	7391	.	+	.	ID=JF742579.1.1;Name=POL;
+JF742579.1	Genbank	CDS	747	7391	.	+	0	ID=cds-AEO78972.1;Parent=JF742579.1.1;Dbxref=NCBI_GP:AEO78972.1;Name=AEO78972.1;gbkey=CDS;product=polyprotein;protein_id=AEO78972.1
 
 ##sequence-region JF965515.1 1 7168
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1033850
 JF965515.1	Genbank	region	1	7168	.	+	.	ID=JF965515.1:1..7168;Dbxref=taxon:1033850;collection-date=2009;country=Australia;gbkey=Src;genome=genomic;identified-by=G.Chidlow%2C G.Harnett%2C M.Watson%2C A.Chopra%2C D.Smith;isolation-source=pernasal aspirate;mol_type=genomic RNA;nat-host=Homo sapiens;old-name=Human rhinovirus 103;strain=WA327E/09
-JF965515.1	Genbank	CDS	622	7128	.	+	0	ID=cds-AEG75268.1;Dbxref=NCBI_GP:AEG75268.1;Name=AEG75268.1;gbkey=CDS;product=polyprotein;protein_id=AEG75268.1
+JF965515.1	Genbank	gene	622	7128	.	+	.	ID=JF965515.1.1;Name=POL;
+JF965515.1	Genbank	CDS	622	7128	.	+	0	ID=cds-AEG75268.1;Parent=JF965515.1.1;Dbxref=NCBI_GP:AEG75268.1;Name=AEG75268.1;gbkey=CDS;product=polyprotein;protein_id=AEG75268.1
 
 ##sequence-region JQ729993.1 1 7407
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=12062
 JQ729993.1	Genbank	region	1	7407	.	+	.	ID=JQ729993.1:1..7407;Dbxref=taxon:12062;collection-date=29-Jun-2010;country=China;gbkey=Src;genome=genomic;isolation-source=cerebrospinal fluid;mol_type=genomic RNA;nat-host=Homo sapiens;old-name=Human echovirus 6;strain=FJLY2010327
-JQ729993.1	Genbank	CDS	744	7319	.	+	0	ID=cds-AFK29633.1;Dbxref=NCBI_GP:AFK29633.1;Name=AFK29633.1;gbkey=CDS;product=polyprotein;protein_id=AFK29633.1
+JQ729993.1	Genbank	gene	744	7319	.	+	.	ID=JQ729993.1.1;Name=POL;
+JQ729993.1	Genbank	CDS	744	7319	.	+	0	ID=cds-AFK29633.1;Parent=JQ729993.1.1;Dbxref=NCBI_GP:AFK29633.1;Name=AFK29633.1;gbkey=CDS;product=polyprotein;protein_id=AFK29633.1
 
 ##sequence-region JX291115.1 1 7155
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=463676
 JX291115.1	Genbank	region	1	7155	.	+	.	ID=JX291115.1:1..7155;Dbxref=taxon:463676;collected-by=John Lednicky;collection-date=06-Nov-2010;country=USA;gbkey=Src;genome=genomic;isolate=JAL-1;mol_type=viral cRNA;old-name=Human rhinovirus C
-JX291115.1	Genbank	CDS	646	7077	.	+	0	ID=cds-AFS30772.1;Dbxref=NCBI_GP:AFS30772.1;Name=AFS30772.1;gbkey=CDS;product=polyprotein;protein_id=AFS30772.1
+JX291115.1	Genbank	gene	646	7077	.	+	.	ID=JX291115.1.1;Name=POL;
+JX291115.1	Genbank	CDS	646	7077	.	+	0	ID=cds-AFS30772.1;Parent=JX291115.1.1;Dbxref=NCBI_GP:AFS30772.1;Name=AFS30772.1;gbkey=CDS;product=polyprotein;protein_id=AFS30772.1
 
 ##sequence-region JX507808.1 1 7406
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=31704
 JX507808.1	Genbank	region	1	7406	.	+	.	ID=JX507808.1:1..7406;Dbxref=taxon:31704;country=China;gb-acronym=CV-A16;gbkey=Src;genome=genomic;mol_type=genomic RNA;nat-host=Homo sapiens%3B child with hand%2C foot%2C and mouth disease;note=passaged in Hep-2 cells;old-name=Human coxsackievirus A16;strain=BJ1208
 JX507808.1	Genbank	five_prime_UTR	1	745	.	+	.	ID=id-JX507808.1:1..745;gbkey=5'UTR
-JX507808.1	Genbank	CDS	746	7324	.	+	0	ID=cds-AGC23343.1;Dbxref=NCBI_GP:AGC23343.1;Name=AGC23343.1;gbkey=CDS;product=polyprotein;protein_id=AGC23343.1
+JX507808.1	Genbank	gene	746	7324	.	+	.	ID=JX507808.1.1;Name=POL;
+JX507808.1	Genbank	CDS	746	7324	.	+	0	ID=cds-AGC23343.1;Parent=JX507808.1.1;Dbxref=NCBI_GP:AGC23343.1;Name=AGC23343.1;gbkey=CDS;product=polyprotein;protein_id=AGC23343.1
 JX507808.1	Genbank	three_prime_UTR	7325	7406	.	+	.	ID=id-JX507808.1:7325..7406;gbkey=3'UTR
 
 ##sequence-region KM362429.1 1 7183
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=185907
 KM362429.1	Genbank	region	1	7183	.	+	.	ID=KM362429.1:1..7183;Dbxref=taxon:185907;collection-date=22-Jul-2008;country=Australia;culture-collection=ATCC:VR-340;gb-acronym=HRV-A39;gbkey=Src;genome=genomic;mol_type=mRNA;note=multiple passages in different cell lines;strain=ATCC VR-340
-KM362429.1	Genbank	CDS	614	7087	.	+	0	ID=cds-AKH49408.1;Dbxref=NCBI_GP:AKH49408.1;Name=AKH49408.1;gbkey=CDS;product=polyprotein;protein_id=AKH49408.1
+KM362429.1	Genbank	gene	614	7087	.	+	.	ID=KM362429.1.1;Name=POL;
+KM362429.1	Genbank	CDS	614	7087	.	+	0	ID=cds-AKH49408.1;Parent=KM362429.1.1;Dbxref=NCBI_GP:AKH49408.1;Name=AKH49408.1;gbkey=CDS;product=polyprotein;protein_id=AKH49408.1
 
 ##sequence-region KP345888.1 1 7457
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1637527
 KP345888.1	Genbank	region	1	7457	.	+	.	ID=KP345888.1:1..7457;Dbxref=taxon:1637527;collection-date=03-Feb-2013;country=United Arab Emirates: Dubai;gbkey=Src;genome=genomic;mol_type=genomic RNA;nat-host=dromedary;strain=20CC
 KP345888.1	Genbank	five_prime_UTR	1	847	.	+	.	ID=id-KP345888.1:1..847;gbkey=5'UTR
-KP345888.1	Genbank	CDS	848	7354	.	+	0	ID=cds-AKA64452.1;Dbxref=NCBI_GP:AKA64452.1;Name=AKA64452.1;gbkey=CDS;product=polyprotein;protein_id=AKA64452.1
+KP345888.1	Genbank	gene	848	7354	.	+	.	ID=KP345888.1.1;Name=POL;
+KP345888.1	Genbank	CDS	848	7354	.	+	0	ID=cds-AKA64452.1;Parent=KP345888.1.1;Dbxref=NCBI_GP:AKA64452.1;Name=AKA64452.1;gbkey=CDS;product=polyprotein;protein_id=AKA64452.1
 KP345888.1	Genbank	three_prime_UTR	7355	7426	.	+	.	ID=id-KP345888.1:7355..7426;gbkey=3'UTR
 
 ##sequence-region KP745767.1 1 7321
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=42789
 KP745767.1	Genbank	region	1	7321	.	+	.	ID=KP745767.1:1..7321;Dbxref=taxon:42789;collection-date=26-Sep-2014;country=USA;gb-acronym=EV-D68;gbkey=Src;genome=genomic;isolate=NY329;isolation-source=nasopharyngeal swab of patient;mol_type=genomic RNA;nat-host=Homo sapiens
 KP745767.1	Genbank	five_prime_UTR	1	697	.	+	.	ID=id-KP745767.1:1..697;gbkey=5'UTR
-KP745767.1	Genbank	CDS	698	7264	.	+	0	ID=cds-AJI76571.1;Dbxref=NCBI_GP:AJI76571.1;Name=AJI76571.1;gbkey=CDS;product=polyprotein;protein_id=AJI76571.1
+KP745767.1	Genbank	gene	698	7264	.	+	.	ID=KP745767.1.1;Name=POL;
+KP745767.1	Genbank	CDS	698	7264	.	+	0	ID=cds-AJI76571.1;Parent=KP745767.1.1;Dbxref=NCBI_GP:AJI76571.1;Name=AJI76571.1;gbkey=CDS;product=polyprotein;protein_id=AJI76571.1
 KP745767.1	Genbank	three_prime_UTR	7265	7321	.	+	.	ID=id-KP745767.1:7265..7321;gbkey=3'UTR
 
 ##sequence-region KP793687.1 1 7507
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=138950
 KP793687.1	Genbank	region	1	7507	.	+	.	ID=KP793687.1:1..7507;Dbxref=taxon:138950;gbkey=Src;genome=genomic;isolate=Brunenders;mol_type=genomic RNA;nat-host=Homo sapiens;old-name=Poliovirus;serotype=1
 KP793687.1	Genbank	five_prime_UTR	1	746	.	+	.	ID=id-KP793687.1:1..746;gbkey=5'UTR
-KP793687.1	Genbank	CDS	747	7376	.	+	0	ID=cds-AKJ87738.1;Dbxref=NCBI_GP:AKJ87738.1;Name=AKJ87738.1;gbkey=CDS;product=polyprotein;protein_id=AKJ87738.1
+KP793687.1	Genbank	gene	747	7376	.	+	.	ID=KP793687.1.1;Name=POL;
+KP793687.1	Genbank	CDS	747	7376	.	+	0	ID=cds-AKJ87738.1;Parent=KP793687.1.1;Dbxref=NCBI_GP:AKJ87738.1;Name=AKJ87738.1;gbkey=CDS;product=polyprotein;protein_id=AKJ87738.1
 KP793687.1	Genbank	three_prime_UTR	7377	7507	.	+	.	ID=id-KP793687.1:7377..7507;gbkey=3'UTR
 
 ##sequence-region KU297674.1 1 7461
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1849328
 KU297674.1	Genbank	region	1	7461	.	+	.	ID=KU297674.1:1..7461;Dbxref=taxon:1849328;collected-by=Xinping Wang%2C Changming Guo;collection-date=20-Apr-2014;country=China;gbkey=Src;genome=genomic;isolate=JL14;isolation-source=feces from goats with severe watery diarrhea;mol_type=genomic RNA;nat-host=Capra hircus
 KU297674.1	Genbank	five_prime_UTR	1	821	.	+	.	ID=id-KU297674.1:1..821;gbkey=5'UTR
-KU297674.1	Genbank	CDS	822	7340	.	+	0	ID=cds-ANF04008.1;Dbxref=NCBI_GP:ANF04008.1;Name=ANF04008.1;gbkey=CDS;product=polyprotein;protein_id=ANF04008.1
+KU297674.1	Genbank	gene	822	7340	.	+	.	ID=KU297674.1.1;Name=POL;
+KU297674.1	Genbank	CDS	822	7340	.	+	0	ID=cds-ANF04008.1;Parent=KU297674.1.1;Dbxref=NCBI_GP:ANF04008.1;Name=ANF04008.1;gbkey=CDS;product=polyprotein;protein_id=ANF04008.1
 KU297674.1	Genbank	three_prime_UTR	7341	7461	.	+	.	ID=id-KU297674.1:7341..7461;gbkey=3'UTR
 
 ##sequence-region KU574629.1 1 6612
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=12060
 KU574629.1	Genbank	region	1	6612	.	+	.	ID=KU574629.1:1..6612;Dbxref=taxon:12060;collection-date=30-Jun-2011;country=Thailand: Bangkok;gb-acronym=E9;gbkey=Src;isolate=EV-B E-9/PMKA1322/THA/2011;mol_type=genomic RNA;nat-host=Homo sapiens;note=H292-passage 1
-KU574629.1	Genbank	CDS	1	6612	.	+	0	ID=cds-ANQ31692.1;Dbxref=NCBI_GP:ANQ31692.1;Name=ANQ31692.1;gbkey=CDS;product=polyprotein;protein_id=ANQ31692.1
+KU574629.1	Genbank	gene	1	6612	.	+	.	ID=KU574629.1.1;Name=POL;
+KU574629.1	Genbank	CDS	1	6612	.	+	0	ID=cds-ANQ31692.1;Parent=KU574629.1.1;Dbxref=NCBI_GP:ANQ31692.1;Name=ANQ31692.1;gbkey=CDS;product=polyprotein;protein_id=ANQ31692.1
 
 ##sequence-region KX430795.1 1 7353
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=86107
 KX430795.1	Genbank	region	1	7353	.	+	.	ID=KX430795.1:1..7353;Dbxref=taxon:86107;collection-date=2014;country=Viet Nam: Ho Chi Minh;gb-acronym=CV-A6;gbkey=Src;genome=genomic;genotype=A;mol_type=genomic RNA;nat-host=Homo sapiens;old-name=human coxsackievirus A6;serotype=CV-A6;strain=CVA6/Homo sapiens/VNM/1.1/2014
-KX430795.1	Genbank	CDS	667	7272	.	+	0	ID=cds-ANT96611.1;Dbxref=NCBI_GP:ANT96611.1;Name=ANT96611.1;gbkey=CDS;product=polyprotein;protein_id=ANT96611.1
+KX430795.1	Genbank	gene	667	7272	.	+	.	ID=KX430795.1.1;Name=POL;
+KX430795.1	Genbank	CDS	667	7272	.	+	0	ID=cds-ANT96611.1;Parent=KX430795.1.1;Dbxref=NCBI_GP:ANT96611.1;Name=ANT96611.1;gbkey=CDS;product=polyprotein;protein_id=ANT96611.1
 
 ##sequence-region KX494871.1 1 7239
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=167325
 KX494871.1	Genbank	region	1	7239	.	+	.	ID=KX494871.1:1..7239;Dbxref=taxon:167325;collection-date=25-Dec-2016;country=China;gbkey=Src;genome=genomic;genotype=B91;isolate=ZJ2015_001;mol_type=genomic RNA;nat-host=Homo sapiens
 KX494871.1	Genbank	five_prime_UTR	1	619	.	+	.	ID=id-KX494871.1:1..619;gbkey=5'UTR
-KX494871.1	Genbank	CDS	620	7180	.	+	0	ID=cds-ARO77045.1;Dbxref=NCBI_GP:ARO77045.1;Name=ARO77045.1;gbkey=CDS;product=polyprotein;protein_id=ARO77045.1
+KX494871.1	Genbank	gene	620	7180	.	+	.	ID=KX494871.1.1;Name=POL;
+KX494871.1	Genbank	CDS	620	7180	.	+	0	ID=cds-ARO77045.1;Parent=KX494871.1.1;Dbxref=NCBI_GP:ARO77045.1;Name=ARO77045.1;gbkey=CDS;product=polyprotein;protein_id=ARO77045.1
 KX494871.1	Genbank	three_prime_UTR	7181	7220	.	+	.	ID=id-KX494871.1:7181..7220;gbkey=3'UTR
 
 ##sequence-region KX610685.2 1 7464
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=12060
 KX610685.2	Genbank	region	1	7464	.	+	.	ID=KX610685.2:1..7464;Dbxref=taxon:12060;collection-date=Jun-2016;country=USA: Seattle%2C WA;gb-acronym=E9;gbkey=Src;genome=genomic;mol_type=genomic RNA;nat-host=Homo sapiens;strain=UW1
-KX610685.2	Genbank	CDS	742	7353	.	+	0	ID=cds-AOX15246.2;Dbxref=NCBI_GP:AOX15246.2;Name=AOX15246.2;gbkey=CDS;product=polyprotein;protein_id=AOX15246.2
+KX610685.2	Genbank	gene	742	7353	.	+	.	ID=KX610685.2.1;Name=POL;
+KX610685.2	Genbank	CDS	742	7353	.	+	0	ID=cds-AOX15246.2;Parent=KX610685.2.1;Dbxref=NCBI_GP:AOX15246.2;Name=AOX15246.2;gbkey=CDS;product=polyprotein;protein_id=AOX15246.2
 
 ##sequence-region MF782663.1 1 6072
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=106966
 MF782663.1	Genbank	region	1	6072	.	+	.	ID=MF782663.1:1..6072;Dbxref=taxon:106966;collection-date=01-May-2014;country=China;gbkey=Src;genome=genomic;isolate=EVG 01/NC_CHI/2014;isolation-source=feces;mol_type=genomic RNA;nat-host=porcine
 MF782663.1	Genbank	five_prime_UTR	1	813	.	+	.	ID=id-MF782663.1:1..813;gbkey=5'UTR
-MF782663.1	Genbank	CDS	814	5970	.	+	0	ID=cds-AXF67394.1;Dbxref=NCBI_GP:AXF67394.1;Name=AXF67394.1;gbkey=CDS;product=polyprotein;protein_id=AXF67394.1
+MF782663.1	Genbank	gene	814	5970	.	+	.	ID=MF782663.1.1;Name=POL;
+MF782663.1	Genbank	CDS	814	5970	.	+	0	ID=cds-AXF67394.1;Parent=MF782663.1.1;Dbxref=NCBI_GP:AXF67394.1;Name=AXF67394.1;gbkey=CDS;product=polyprotein;protein_id=AXF67394.1
 MF782663.1	Genbank	three_prime_UTR	5971	6042	.	+	.	ID=id-MF782663.1:5971..6042;gbkey=3'UTR
 
 ##sequence-region MF782664.1 1 8072
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=106966
 MF782664.1	Genbank	region	1	8072	.	+	.	ID=MF782664.1:1..8072;Dbxref=taxon:106966;collection-date=01-May-2014;country=China;gbkey=Src;genome=genomic;isolate=EVG 02/NC_CHI/2014;isolation-source=feces;mol_type=genomic RNA;nat-host=porcine
 MF782664.1	Genbank	five_prime_UTR	1	813	.	+	.	ID=id-MF782664.1:1..813;gbkey=5'UTR
-MF782664.1	Genbank	CDS	814	7971	.	+	0	ID=cds-AXF67395.1;Dbxref=NCBI_GP:AXF67395.1;Name=AXF67395.1;gbkey=CDS;product=polyprotein;protein_id=AXF67395.1
+MF782664.1	Genbank	gene	814	7971	.	+	.	ID=MF782664.1.1;Name=POL;
+MF782664.1	Genbank	CDS	814	7971	.	+	0	ID=cds-AXF67395.1;Parent=MF782664.1.1;Dbxref=NCBI_GP:AXF67395.1;Name=AXF67395.1;gbkey=CDS;product=polyprotein;protein_id=AXF67395.1
 MF782664.1	Genbank	three_prime_UTR	7972	8042	.	+	.	ID=id-MF782664.1:7972..8042;gbkey=3'UTR
 
 ##sequence-region MG451811.1 1 6695
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=12086
 MG451811.1	Genbank	region	1	6695	.	+	.	ID=MG451811.1:1..6695;Dbxref=taxon:12086;collection-date=10-Jan-2017;country=United Kingdom;gbkey=Src;genome=genomic;isolate=Env_2017_Jan_PV-3;isolation-source=Sewage;mol_type=genomic RNA
-MG451811.1	Genbank	CDS	307	6695	.	+	0	ID=cds-AUO29158.1;Dbxref=NCBI_GP:AUO29158.1;Name=AUO29158.1;end_range=6695,.;gbkey=CDS;partial=true;product=polyprotein;protein_id=AUO29158.1
+MG451811.1	Genbank	gene	307	6695	.	+	.	ID=MG451811.1.1;Name=POL;
+MG451811.1	Genbank	CDS	307	6695	.	+	0	ID=cds-AUO29158.1;Parent=MG451811.1.1;Dbxref=NCBI_GP:AUO29158.1;Name=AUO29158.1;end_range=6695,.;gbkey=CDS;partial=true;product=polyprotein;protein_id=AUO29158.1
 
 ##sequence-region MG571548.1 1 7319
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=12064
 MG571548.1	Genbank	region	1	7319	.	+	.	ID=MG571548.1:1..7319;Dbxref=taxon:12064;collection-date=2017;country=Italy;gbkey=Src;genome=genomic;genotype=E1;isolate=PD2017;isolation-source=feces;mol_type=genomic RNA;nat-host=Bos taurus
-MG571548.1	Genbank	CDS	774	7301	.	+	0	ID=cds-AXU25490.1;Dbxref=NCBI_GP:AXU25490.1;Name=AXU25490.1;Note=contains capsid proteins VP1%2C VP2%2C VP3%2C VP4%2C nonstructural proteins 2A%2C 2B%2C 2C%2C 3A%2C 3B%2C 3C%2C and 3D;gbkey=CDS;product=polyprotein;protein_id=AXU25490.1
+MG571548.1	Genbank	gene	774	7301	.	+	.	ID=MG571548.1.1;Name=POL;
+MG571548.1	Genbank	CDS	774	7301	.	+	0	ID=cds-AXU25490.1;Parent=MG571548.1.1;Dbxref=NCBI_GP:AXU25490.1;Name=AXU25490.1;Note=contains capsid proteins VP1%2C VP2%2C VP3%2C VP4%2C nonstructural proteins 2A%2C 2B%2C 2C%2C 3A%2C 3B%2C 3C%2C and 3D;gbkey=CDS;product=polyprotein;protein_id=AXU25490.1
 
 ##sequence-region MG660831.1 1 6519
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2220002
 MG660831.1	Genbank	region	1	6519	.	+	.	ID=MG660831.1:1..6519;Dbxref=taxon:2220002;collection-date=2013;country=China;gbkey=Src;genome=genomic;isolate=LLT03;mol_type=genomic RNA;nat-host=Budorcas taxicolor tibetana
-MG660831.1	Genbank	CDS	1	6519	.	+	0	ID=cds-AWU49740.1;Dbxref=NCBI_GP:AWU49740.1;Name=AWU49740.1;gbkey=CDS;product=polyprotein;protein_id=AWU49740.1
+MG660831.1	Genbank	gene	1	6519	.	+	.	ID=MG660831.1.1;Name=POL;
+MG660831.1	Genbank	CDS	1	6519	.	+	0	ID=cds-AWU49740.1;Parent=MG660831.1.1;Dbxref=NCBI_GP:AWU49740.1;Name=AWU49740.1;gbkey=CDS;product=polyprotein;protein_id=AWU49740.1
 
-##sequence-region MG660832.1 1 6233
-##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2220003
-MG660832.1	Genbank	region	1	6233	.	+	.	ID=MG660832.1:1..6233;Dbxref=taxon:2220003;collection-date=2013;country=China;gbkey=Src;genome=genomic;isolate=LLT03;mol_type=genomic RNA;nat-host=Budorcas taxicolor tibetana
-MG660832.1	Genbank	five_prime_UTR	1	131	.	+	.	ID=id-MG660832.1:1..131;gbkey=5'UTR
-MG660832.1	Genbank	CDS	132	2393	.	+	0	ID=cds-AWU49742.1;Dbxref=NCBI_GP:AWU49742.1;Name=AWU49742.1;exception=ribosomal slippage;gbkey=CDS;product=ORF1ab;protein_id=AWU49742.1
-MG660832.1	Genbank	CDS	2393	3901	.	+	0	ID=cds-AWU49742.1;Dbxref=NCBI_GP:AWU49742.1;Name=AWU49742.1;exception=ribosomal slippage;gbkey=CDS;product=ORF1ab;protein_id=AWU49742.1
-MG660832.1	Genbank	CDS	132	2438	.	+	0	ID=cds-AWU49741.1;Dbxref=NCBI_GP:AWU49741.1;Name=AWU49741.1;gbkey=CDS;product=ORF1a;protein_id=AWU49741.1
-MG660832.1	Genbank	CDS	3711	6161	.	+	0	ID=cds-AWU49743.1;Dbxref=NCBI_GP:AWU49743.1;Name=AWU49743.1;gbkey=CDS;product=ORF2;protein_id=AWU49743.1
-MG660832.1	Genbank	three_prime_UTR	6162	6233	.	+	.	ID=id-MG660832.1:6162..6233;gbkey=3'UTR
-
-##sequence-region MH933854.1 1 7233
+##sequence-region MH933855.1 1 7347
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1193974
-MH933854.1	Genbank	region	1	7233	.	+	.	ID=MH933854.1:1..7233;Dbxref=taxon:1193974;collection-date=2014;country=Cameroon;gbkey=Src;genome=genomic;isolate=EV/Human/CMRHP35B/CMR/2014;isolation-source=Feces;mol_type=genomic RNA;nat-host=Homo sapiens
-MH933854.1	Genbank	CDS	82	6633	.	-	0	ID=cds-QAA77672.1;Dbxref=NCBI_GP:QAA77672.1;Name=QAA77672.1;gbkey=CDS;product=polyprotein;protein_id=QAA77672.1
+MH933855.1	Genbank	region	1	7347	.	+	.	ID=MH933855.1:1..7347;Dbxref=taxon:1193974;collection-date=2014;country=Cameroon;gbkey=Src;genome=genomic;isolate=EV/Human/CMRHP45/CMR/2014;isolation-source=Feces;mol_type=genomic RNA;nat-host=Homo sapiens
+MH933855.1	Genbank	gene	690	7241	.	+	.	ID=MH933855.1.1;Name=POL;
+MH933855.1	Genbank	CDS	690	7241	.	+	0	ID=cds-QAA77673.1;Parent=MH933855.1.1;Dbxref=NCBI_GP:QAA77673.1;Name=QAA77673.1;gbkey=CDS;product=polyprotein;protein_id=QAA77673.1
 
 ##sequence-region NC_003988.1 1 7374
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=310907
 NC_003988.1	RefSeq	region	1	7374	.	+	.	ID=NC_003988.1:1..7374;Dbxref=taxon:310907;gbkey=Src;genome=genomic;mol_type=genomic RNA;old-name=Human enterovirus E;sub-species=A-2 plaque virus
-NC_003988.1	RefSeq	gene	654	7247	.	+	.	ID=gene-HeEVgp1;Dbxref=GeneID:944584;Name=HeEVgp1;gbkey=Gene;gene_biotype=protein_coding;locus_tag=HeEVgp1
+NC_003988.1	RefSeq	gene	654	7247	.	+	.	ID=gene-HeEVgp1;Dbxref=GeneID:944584;Name=POL;gbkey=Gene;gene_biotype=protein_coding;locus_tag=HeEVgp1
 NC_003988.1	RefSeq	CDS	654	7247	.	+	0	ID=cds-NP_653149.1;Parent=gene-HeEVgp1;Dbxref=Genbank:NP_653149.1,GeneID:944584;Name=NP_653149.1;gbkey=CDS;locus_tag=HeEVgp1;product=genome polyprotein;protein_id=NP_653149.1
 
 ##sequence-region NC_006553.1 1 8289
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=686983
 NC_006553.1	RefSeq	region	1	8289	.	+	.	ID=NC_006553.1:1..8289;Dbxref=taxon:686983;gbkey=Src;genome=genomic;isolate=TW90A;mol_type=genomic RNA;old-name=Duck picornavirus TW90A
 NC_006553.1	RefSeq	five_prime_UTR	1	425	.	+	.	ID=id-NC_006553.1:1..425;gbkey=5'UTR
-NC_006553.1	RefSeq	gene	426	7991	.	+	.	ID=gene-DPTV90A_gp1;Dbxref=GeneID:5076429;Name=DPTV90A_gp1;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DPTV90A_gp1
+NC_006553.1	RefSeq	gene	426	7991	.	+	.	ID=gene-DPTV90A_gp1;Dbxref=GeneID:5076429;Name=POL;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DPTV90A_gp1
 NC_006553.1	RefSeq	CDS	426	7991	.	+	0	ID=cds-YP_164335.1;Parent=gene-DPTV90A_gp1;Dbxref=Genbank:YP_164335.1,GeneID:5076429;Name=YP_164335.1;gbkey=CDS;locus_tag=DPTV90A_gp1;product=polyprotein;protein_id=YP_164335.1
 NC_006553.1	RefSeq	three_prime_UTR	7992	8226	.	+	.	ID=id-NC_006553.1:7992..8226;gbkey=3'UTR
 
@@ -201,7 +222,7 @@ NC_006553.1	RefSeq	three_prime_UTR	7992	8226	.	+	.	ID=id-NC_006553.1:7992..8226;
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1330521
 NC_013695.1	RefSeq	region	1	7379	.	+	.	ID=NC_013695.1:1..7379;Dbxref=taxon:1330521;gbkey=Src;genome=genomic;isolate=Simian picornavirus strain N203;mol_type=genomic RNA;strain=N203
 NC_013695.1	RefSeq	five_prime_UTR	1	737	.	+	.	ID=id-NC_013695.1:1..737;gbkey=5'UTR
-NC_013695.1	RefSeq	gene	738	7274	.	+	.	ID=gene-SpVN203_gp1;Dbxref=GeneID:15486940;Name=SpVN203_gp1;gbkey=Gene;gene_biotype=protein_coding;locus_tag=SpVN203_gp1
+NC_013695.1	RefSeq	gene	738	7274	.	+	.	ID=gene-SpVN203_gp1;Dbxref=GeneID:15486940;Name=POL;gbkey=Gene;gene_biotype=protein_coding;locus_tag=SpVN203_gp1
 NC_013695.1	RefSeq	CDS	738	7274	.	+	0	ID=cds-YP_003358790.1;Parent=gene-SpVN203_gp1;Dbxref=Genbank:YP_003358790.1,GeneID:15486940;Name=YP_003358790.1;gbkey=CDS;locus_tag=SpVN203_gp1;product=genome polyprotein;protein_id=YP_003358790.1
 NC_013695.1	RefSeq	three_prime_UTR	7275	7379	.	+	.	ID=id-NC_013695.1:7275..7379;gbkey=3'UTR
 
@@ -209,20 +230,21 @@ NC_013695.1	RefSeq	three_prime_UTR	7275	7379	.	+	.	ID=id-NC_013695.1:7275..7379;
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1826059
 NC_029905.1	RefSeq	region	1	7367	.	+	.	ID=NC_029905.1:1..7367;Dbxref=taxon:1826059;collection-date=17-May-2014;country=China;gbkey=Src;genome=genomic;isolate=SEV-gx;mol_type=genomic RNA;nat-host=Macaca mulatta
 NC_029905.1	RefSeq	five_prime_UTR	1	660	.	+	.	ID=id-NC_029905.1:1..660;gbkey=5'UTR
-NC_029905.1	RefSeq	gene	661	7290	.	+	.	ID=gene-A6I61_gp1;Dbxref=GeneID:27246432;Name=A6I61_gp1;gbkey=Gene;gene_biotype=protein_coding;locus_tag=A6I61_gp1
+NC_029905.1	RefSeq	gene	661	7290	.	+	.	ID=gene-A6I61_gp1;Dbxref=GeneID:27246432;Name=POL;gbkey=Gene;gene_biotype=protein_coding;locus_tag=A6I61_gp1
 NC_029905.1	RefSeq	CDS	661	7290	.	+	0	ID=cds-YP_009246449.1;Parent=gene-A6I61_gp1;Dbxref=Genbank:YP_009246449.1,GeneID:27246432;Name=YP_009246449.1;gbkey=CDS;locus_tag=A6I61_gp1;product=polyprotein;protein_id=YP_009246449.1
 NC_029905.1	RefSeq	three_prime_UTR	7291	7367	.	+	.	ID=id-NC_029905.1:7291..7367;gbkey=3'UTR
 
 ##sequence-region NC_038989.1 1 7805
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1917412
 NC_038989.1	RefSeq	region	1	7805	.	+	.	ID=NC_038989.1:1..7805;Dbxref=taxon:1917412;country=China;gbkey=Src;genome=genomic;isolate=rodent/Ee/PicoV/NX2015;mol_type=genomic RNA;nat-host=rodent
-NC_038989.1	RefSeq	gene	863	7711	.	+	.	ID=gene-D1T92_gp1;Dbxref=GeneID:37619866;Name=D1T92_gp1;gbkey=Gene;gene_biotype=protein_coding;locus_tag=D1T92_gp1
+NC_038989.1	RefSeq	gene	863	7711	.	+	.	ID=gene-D1T92_gp1;Dbxref=GeneID:37619866;Name=POL;gbkey=Gene;gene_biotype=protein_coding;locus_tag=D1T92_gp1
 NC_038989.1	RefSeq	CDS	863	7711	.	+	0	ID=cds-YP_009508417.1;Parent=gene-D1T92_gp1;Dbxref=Genbank:YP_009508417.1,GeneID:37619866;Name=YP_009508417.1;gbkey=CDS;locus_tag=D1T92_gp1;product=polyprotein;protein_id=YP_009508417.1
 
 ##sequence-region X77708.1 1 7501
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=35293
 X77708.1	EMBL	region	1	7501	.	+	.	ID=X77708.1:1..7501;Dbxref=taxon:35293;gbkey=Src;mol_type=genomic RNA;note=complete RNA genome;old-name=Human echovirus 12;sub-species=prototype Travis;variety=rhodanine resistant
-X77708.1	EMBL	CDS	742	7323	.	+	0	ID=cds-CAA54783.1;Dbxref=GOA:Q66575,InterPro:IPR000081,InterPro:IPR000199,InterPro:IPR000605,InterPro:IPR001205,InterPro:IPR001676,InterPro:IPR002527,InterPro:IPR003138,InterPro:IPR003593,InterPro:IPR004004,InterPro:IPR007094,InterPro:IPR009003,InterPro:IPR014759,InterPro:IPR014838,UniProtKB/Swiss-Prot:Q66575,NCBI_GP:CAA54783.1;Name=CAA54783.1;Note=Echovirus 12 polyprotein;gbkey=CDS;product=CAA54783.1;protein_id=CAA54783.1
+X77708.1	EMBL	gene	742	7323	.	+	.	ID=X77708.1.1;Name=POL;
+X77708.1	EMBL	CDS	742	7323	.	+	0	ID=cds-CAA54783.1;Parent=X77708.1.1;Dbxref=GOA:Q66575,InterPro:IPR000081,InterPro:IPR000199,InterPro:IPR000605,InterPro:IPR001205,InterPro:IPR001676,InterPro:IPR002527,InterPro:IPR003138,InterPro:IPR003593,InterPro:IPR004004,InterPro:IPR007094,InterPro:IPR009003,InterPro:IPR014759,InterPro:IPR014838,UniProtKB/Swiss-Prot:Q66575,NCBI_GP:CAA54783.1;Name=CAA54783.1;Note=Echovirus 12 polyprotein;gbkey=CDS;product=CAA54783.1;protein_id=CAA54783.1
 X77708.1	EMBL	gene	742	948	.	+	.	ID=gene-VP4;Name=VP4;gbkey=Gene;gene=VP4;gene_biotype=other
 X77708.1	EMBL	gene	950	1731	.	+	.	ID=gene-VP2;Name=VP2;gbkey=Gene;gene=VP2;gene_biotype=other
 X77708.1	EMBL	mature_protein_region	950	1731	.	+	.	ID=id-X77708.1:950..1731;gbkey=mat_peptide;gene=VP2

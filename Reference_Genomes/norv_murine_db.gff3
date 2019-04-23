@@ -2,78 +2,103 @@
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=223997
 EU004654.1	Genbank	region	1	7382	.	+	.	ID=EU004654.1:1..7382;Dbxref=taxon:223997;clone=CW2;collection-date=2002;country=USA;gbkey=Src;genome=genomic;isolate=Mu/NoV/GV/MNV1/2002/USA;isolation-source=brain of interferon-alpha/beta/gamma receptor knock-out mouse;mol_type=genomic RNA;nat-host=mouse;note=plaque purified three times and passaged three times%3B from same source as clone CW1 in GenBank Accession Number DQ285629;subclone=P3
 EU004654.1	Genbank	five_prime_UTR	1	5	.	+	.	ID=id-EU004654.1:1..5;gbkey=5'UTR
-EU004654.1	Genbank	CDS	6	5069	.	+	0	ID=cds-ABU55540.1;Dbxref=NCBI_GP:ABU55540.1;Name=ABU55540.1;Note=ORF1%3B encodes helicase%2C protease%2C and polymerase;gbkey=CDS;product=polyprotein;protein_id=ABU55540.1
-EU004654.1	Genbank	CDS	5056	6681	.	+	0	ID=cds-ABU55541.1;Dbxref=NCBI_GP:ABU55541.1;Name=ABU55541.1;gbkey=CDS;product=capsid protein;protein_id=ABU55541.1
-EU004654.1	Genbank	CDS	6681	7307	.	+	0	ID=cds-ABU55542.1;Dbxref=NCBI_GP:ABU55542.1;Name=ABU55542.1;gbkey=CDS;product=small basic protein;protein_id=ABU55542.1
+EU004654.1	Genbank	gene	6	5069	.	+	.	ID=EU004654.1.1;Name=POL;
+EU004654.1	Genbank	CDS	6	5069	.	+	0	ID=cds-ABU55540.1;Parent=EU004654.1.1;Dbxref=NCBI_GP:ABU55540.1;Name=ABU55540.1;Note=ORF1%3B encodes helicase%2C protease%2C and polymerase;gbkey=CDS;product=polyprotein;protein_id=ABU55540.1
+EU004654.1	Genbank	gene	5056	6681	.	+	.	ID=EU004654.1.2;Name=VP1;
+EU004654.1	Genbank	CDS	5056	6681	.	+	0	ID=cds-ABU55541.1;Parent=EU004654.1.2;Dbxref=NCBI_GP:ABU55541.1;Name=ABU55541.1;gbkey=CDS;product=capsid protein;protein_id=ABU55541.1
+EU004654.1	Genbank	gene	6681	7307	.	+	.	ID=EU004654.1.3;Name=VP2;
+EU004654.1	Genbank	CDS	6681	7307	.	+	0	ID=cds-ABU55542.1=Parent=EU004654.1.3;;Dbxref=NCBI_GP:ABU55542.1;Name=ABU55542.1;gbkey=CDS;product=small basic protein;protein_id=ABU55542.1
 EU004654.1	Genbank	three_prime_UTR	7308	7382	.	+	.	ID=id-EU004654.1:7308..7382;gbkey=3'UTR
 
 ##sequence-region EU004663.1 1 7390
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=463709
 EU004663.1	Genbank	region	1	7390	.	+	.	ID=EU004663.1:1..7390;Dbxref=taxon:463709;collection-date=16-Mar-2005;country=USA;gbkey=Src;genome=genomic;isolate=Mu/NoV/GV/WU11/2005/USA;isolation-source=feces of OT1/RAG1/IFN-gamma receptor knock-out mouse;mol_type=genomic RNA;nat-host=mouse;note=passaged twice
 EU004663.1	Genbank	five_prime_UTR	1	5	.	+	.	ID=id-EU004663.1:1..5;gbkey=5'UTR
-EU004663.1	Genbank	CDS	6	5072	.	+	0	ID=cds-ABU55567.1;Dbxref=NCBI_GP:ABU55567.1;Name=ABU55567.1;Note=ORF1%3B encodes helicase%2C protease%2C and polymerase;gbkey=CDS;product=polyprotein;protein_id=ABU55567.1
-EU004663.1	Genbank	CDS	5059	6684	.	+	0	ID=cds-ABU55568.1;Dbxref=NCBI_GP:ABU55568.1;Name=ABU55568.1;gbkey=CDS;product=capsid protein;protein_id=ABU55568.1
-EU004663.1	Genbank	CDS	6684	7310	.	+	0	ID=cds-ABU55569.1;Dbxref=NCBI_GP:ABU55569.1;Name=ABU55569.1;gbkey=CDS;product=small basic protein;protein_id=ABU55569.1
+EU004663.1	Genbank	gene	6	5072	.	+	.	ID=EU004663.1.1;Name=POL;
+EU004663.1	Genbank	CDS	6	5072	.	+	0	ID=cds-ABU55567.1;Parent=EU004663.1.1;Dbxref=NCBI_GP:ABU55567.1;Name=ABU55567.1;Note=ORF1%3B encodes helicase%2C protease%2C and polymerase;gbkey=CDS;product=polyprotein;protein_id=ABU55567.1
+EU004663.1	Genbank	gene	5059	6684	.	+	.	ID=EU004663.1.2;Name=VP1;
+EU004663.1	Genbank	CDS	5059	6684	.	+	0	ID=cds-ABU55568.1;Parent=EU004663.1.2;Dbxref=NCBI_GP:ABU55568.1;Name=ABU55568.1;gbkey=CDS;product=capsid protein;protein_id=ABU55568.1
+EU004663.1	Genbank	gene	6684	7310	.	+	.	ID=EU004663.1.3;Name=VP2;
+EU004663.1	Genbank	CDS	6684	7310	.	+	0	ID=cds-ABU55569.1;Parent=EU004663.1.3;Dbxref=NCBI_GP:ABU55569.1;Name=ABU55569.1;gbkey=CDS;product=small basic protein;protein_id=ABU55569.1
 EU004663.1	Genbank	three_prime_UTR	7311	7357	.	+	.	ID=id-EU004663.1:7311..7357;gbkey=3'UTR
 
 ##sequence-region EU004674.1 1 7382
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=463720
 EU004674.1	Genbank	region	1	7382	.	+	.	ID=EU004674.1:1..7382;Dbxref=taxon:463720;collection-date=Oct-2005;country=USA;gbkey=Src;genome=genomic;isolate=Mu/NoV/GV/CR4/2005/USA;isolation-source=feces of genetically modified C57BL6 mouse;mol_type=genomic RNA;nat-host=mouse;note=passaged twice
 EU004674.1	Genbank	five_prime_UTR	1	5	.	+	.	ID=id-EU004674.1:1..5;gbkey=5'UTR
-EU004674.1	Genbank	CDS	6	5069	.	+	0	ID=cds-ABU55600.1;Dbxref=NCBI_GP:ABU55600.1;Name=ABU55600.1;Note=ORF1%3B encodes helicase%2C protease%2C and polymerase;gbkey=CDS;product=polyprotein;protein_id=ABU55600.1
-EU004674.1	Genbank	CDS	5056	6681	.	+	0	ID=cds-ABU55601.1;Dbxref=NCBI_GP:ABU55601.1;Name=ABU55601.1;gbkey=CDS;product=capsid protein;protein_id=ABU55601.1
-EU004674.1	Genbank	CDS	6681	7307	.	+	0	ID=cds-ABU55602.1;Dbxref=NCBI_GP:ABU55602.1;Name=ABU55602.1;gbkey=CDS;product=small basic protein;protein_id=ABU55602.1
+EU004674.1	Genbank	gene	6	5069	.	+	.	ID=EU004674.1.1;Name=POL;
+EU004674.1	Genbank	CDS	6	5069	.	+	0	ID=cds-ABU55600.1;Parent=EU004674.1.1;Dbxref=NCBI_GP:ABU55600.1;Name=ABU55600.1;Note=ORF1%3B encodes helicase%2C protease%2C and polymerase;gbkey=CDS;product=polyprotein;protein_id=ABU55600.1
+EU004674.1	Genbank	gene	5056	6681	.	+	.	ID=EU004674.1.2;Name=VP1;
+EU004674.1	Genbank	CDS	5056	6681	.	+	0	ID=cds-ABU55601.1;Parent=EU004674.1.2;Dbxref=NCBI_GP:ABU55601.1;Name=ABU55601.1;gbkey=CDS;product=capsid protein;protein_id=ABU55601.1
+EU004674.1	Genbank	gene	6681	7307	.	+	.	ID=EU004674.1.3;Name=VP2;
+EU004674.1	Genbank	CDS	6681	7307	.	+	0	ID=cds-ABU55602.1;Parent=EU004674.1.3;Dbxref=NCBI_GP:ABU55602.1;Name=ABU55602.1;gbkey=CDS;product=small basic protein;protein_id=ABU55602.1
 EU004674.1	Genbank	three_prime_UTR	7308	7382	.	+	.	ID=id-EU004674.1:7308..7382;gbkey=3'UTR
 
 ##sequence-region EU004681.1 1 7389
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=463727
 EU004681.1	Genbank	region	1	7389	.	+	.	ID=EU004681.1:1..7389;Dbxref=taxon:463727;collection-date=Oct-2005;country=USA;gbkey=Src;genome=genomic;isolate=Mu/NoV/GV/CR15/2005/USA;isolation-source=feces of genetically modified C57BL6 mouse;mol_type=genomic RNA;nat-host=mouse;note=passaged twice
 EU004681.1	Genbank	five_prime_UTR	1	5	.	+	.	ID=id-EU004681.1:1..5;gbkey=5'UTR
-EU004681.1	Genbank	CDS	6	5069	.	+	0	ID=cds-ABU55621.1;Dbxref=NCBI_GP:ABU55621.1;Name=ABU55621.1;Note=ORF1%3B encodes helicase%2C protease%2C and polymerase;gbkey=CDS;product=polyprotein;protein_id=ABU55621.1
-EU004681.1	Genbank	CDS	5056	6681	.	+	0	ID=cds-ABU55622.1;Dbxref=NCBI_GP:ABU55622.1;Name=ABU55622.1;gbkey=CDS;product=capsid protein;protein_id=ABU55622.1
-EU004681.1	Genbank	CDS	6681	7307	.	+	0	ID=cds-ABU55623.1;Dbxref=NCBI_GP:ABU55623.1;Name=ABU55623.1;gbkey=CDS;product=small basic protein;protein_id=ABU55623.1
+EU004681.1	Genbank	gene	6	5069	.	+	.	ID=EU004681.1.1;Name=POL;
+EU004681.1	Genbank	CDS	6	5069	.	+	0	ID=cds-ABU55621.1;Parent=EU004681.1.1;Dbxref=NCBI_GP:ABU55621.1;Name=ABU55621.1;Note=ORF1%3B encodes helicase%2C protease%2C and polymerase;gbkey=CDS;product=polyprotein;protein_id=ABU55621.1
+EU004681.1	Genbank	gene	5056	6681	.	+	.	ID=EU004681.1.2;Name=VP1;
+EU004681.1	Genbank	CDS	5056	6681	.	+	0	ID=cds-ABU55622.1;Parent=EU004681.1.2;Dbxref=NCBI_GP:ABU55622.1;Name=ABU55622.1;gbkey=CDS;product=capsid protein;protein_id=ABU55622.1
+EU004681.1	Genbank	gene	6681	7307	.	+	.	ID=EU004681.1.3;Name=VP2;
+EU004681.1	Genbank	CDS	6681	7307	.	+	0	ID=cds-ABU55623.1;Parent=EU004681.1.3;Dbxref=NCBI_GP:ABU55623.1;Name=ABU55623.1;gbkey=CDS;product=small basic protein;protein_id=ABU55623.1
 EU004681.1	Genbank	three_prime_UTR	7308	7358	.	+	.	ID=id-EU004681.1:7308..7358;gbkey=3'UTR
 
 ##sequence-region HQ317203.1 1 7380
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=357231
 HQ317203.1	Genbank	region	1	7380	.	+	.	ID=HQ317203.1:1..7380;Dbxref=taxon:357231;collection-date=15-Jun-2009;country=China;gbkey=Src;genome=genomic;isolation-source=cecal content;mol_type=genomic RNA;nat-host=mouse strain KM;strain=Guangzhou/K162/09/CHN
 HQ317203.1	Genbank	five_prime_UTR	1	5	.	+	.	ID=id-HQ317203.1:1..5;gbkey=5'UTR
-HQ317203.1	Genbank	CDS	6	5069	.	+	0	ID=cds-AEA07711.1;Dbxref=NCBI_GP:AEA07711.1;Name=AEA07711.1;Note=ORF1%3B contains helicase%2C protease%2C and polymerase;gbkey=CDS;product=polyprotein;protein_id=AEA07711.1
-HQ317203.1	Genbank	CDS	5056	6681	.	+	0	ID=cds-AEA07712.1;Dbxref=NCBI_GP:AEA07712.1;Name=AEA07712.1;Note=ORF2;gbkey=CDS;product=capsid protein;protein_id=AEA07712.1
-HQ317203.1	Genbank	CDS	6681	7307	.	+	0	ID=cds-AEA07713.1;Dbxref=NCBI_GP:AEA07713.1;Name=AEA07713.1;Note=ORF3;gbkey=CDS;product=small basic protein;protein_id=AEA07713.1
+HQ317203.1	Genbank	gene	6	5069	.	+	.	ID=HQ317203.1.1;Name=POL;
+HQ317203.1	Genbank	CDS	6	5069	.	+	0	ID=cds-AEA07711.1;Parent=HQ317203.1.1;Dbxref=NCBI_GP:AEA07711.1;Name=AEA07711.1;Note=ORF1%3B contains helicase%2C protease%2C and polymerase;gbkey=CDS;product=polyprotein;protein_id=AEA07711.1
+HQ317203.1	Genbank	gene	5056	6681	.	+	.	ID=HQ317203.1.2;Name=VP1;
+HQ317203.1	Genbank	CDS	5056	6681	.	+	0	ID=cds-AEA07712.1;Parent=HQ317203.1.2;Dbxref=NCBI_GP:AEA07712.1;Name=AEA07712.1;Note=ORF2;gbkey=CDS;product=capsid protein;protein_id=AEA07712.1
+HQ317203.1	Genbank	gene	6681	7307	.	+	.	ID=HQ317203.1.3;Name=VP2;
+HQ317203.1	Genbank	CDS	6681	7307	.	+	0	ID=cds-AEA07713.1;Parent=HQ317203.1.3;Dbxref=NCBI_GP:AEA07713.1;Name=AEA07713.1;Note=ORF3;gbkey=CDS;product=small basic protein;protein_id=AEA07713.1
 HQ317203.1	Genbank	three_prime_UTR	7308	7380	.	+	.	ID=id-HQ317203.1:7308..7380;gbkey=3'UTR
 
 ##sequence-region JF320653.1 1 7382
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1028330
 JF320653.1	Genbank	region	1	7382	.	+	.	ID=JF320653.1:1..7382;Dbxref=taxon:1028330;collection-date=2007;country=USA;gbkey=Src;genome=genomic;isolation-source=feces;mol_type=genomic RNA;nat-host=mouse;strain=GV/NIH-D220/2007/USA
-JF320653.1	Genbank	CDS	6	5069	.	+	0	ID=cds-AEE10026.1;Dbxref=NCBI_GP:AEE10026.1;Name=AEE10026.1;gbkey=CDS;product=nonstructural polyprotein;protein_id=AEE10026.1
-JF320653.1	Genbank	CDS	5056	6681	.	+	0	ID=cds-AEE10027.1;Dbxref=NCBI_GP:AEE10027.1;Name=AEE10027.1;gbkey=CDS;product=major capsid protein VP1;protein_id=AEE10027.1
-JF320653.1	Genbank	CDS	6681	7307	.	+	0	ID=cds-AEE10028.1;Dbxref=NCBI_GP:AEE10028.1;Name=AEE10028.1;gbkey=CDS;product=minor capsid protein VP2;protein_id=AEE10028.1
+JF320653.1	Genbank	gene	6	5069	.	+	.	ID=JF320653.1.1;Name=POL;
+JF320653.1	Genbank	CDS	6	5069	.	+	0	ID=cds-AEE10026.1;Parent=JF320653.1.1;Dbxref=NCBI_GP:AEE10026.1;Name=AEE10026.1;gbkey=CDS;product=nonstructural polyprotein;protein_id=AEE10026.1
+JF320653.1	Genbank	gene	5056	6681	.	+	.	ID=JF320653.1.2;Name=VP1;
+JF320653.1	Genbank	CDS	5056	6681	.	+	0	ID=cds-AEE10027.1;Parent=JF320653.1.2;Dbxref=NCBI_GP:AEE10027.1;Name=AEE10027.1;gbkey=CDS;product=major capsid protein VP1;protein_id=AEE10027.1
+JF320653.1	Genbank	gene	6681	7307	.	+	.	ID=JF320653.1.3;Name=VP2;
+JF320653.1	Genbank	CDS	6681	7307	.	+	0	ID=cds-AEE10028.1;Parent=JF320653.1.3;Dbxref=NCBI_GP:AEE10028.1;Name=AEE10028.1;gbkey=CDS;product=minor capsid protein VP2;protein_id=AEE10028.1
 
 ##sequence-region JX048594.1 1 7402
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=357231
 JX048594.1	Genbank	region	1	7402	.	+	.	ID=JX048594.1:1..7402;Dbxref=taxon:357231;collection-date=Apr-2010;country=South Korea;gbkey=Src;genome=genomic;isolation-source=feces;mol_type=genomic RNA;strain=KHU-1
-JX048594.1	Genbank	CDS	6	5069	.	+	0	ID=cds-AFO84034.1;Dbxref=NCBI_GP:AFO84034.1;Name=AFO84034.1;Note=ORF1;gbkey=CDS;product=NS polyprotein;protein_id=AFO84034.1
-JX048594.1	Genbank	CDS	5056	6681	.	+	0	ID=cds-AFO84035.1;Dbxref=NCBI_GP:AFO84035.1;Name=AFO84035.1;Note=ORF2;gbkey=CDS;product=majore capsid protein;protein_id=AFO84035.1
-JX048594.1	Genbank	CDS	6681	7307	.	+	0	ID=cds-AFO84036.1;Dbxref=NCBI_GP:AFO84036.1;Name=AFO84036.1;Note=ORF3;gbkey=CDS;product=small basic protein;protein_id=AFO84036.1
+JX048594.1	Genbank	gene	6	5069	.	+	.	ID=JX048594.1.1;Name=POL;
+JX048594.1	Genbank	CDS	6	5069	.	+	0	ID=cds-AFO84034.1;Parent=JX048594.1.1;Dbxref=NCBI_GP:AFO84034.1;Name=AFO84034.1;Note=ORF1;gbkey=CDS;product=NS polyprotein;protein_id=AFO84034.1
+JX048594.1	Genbank	gene	5056	6681	.	+	.	ID=JX048594.1.2;Name=VP1;
+JX048594.1	Genbank	CDS	5056	6681	.	+	0	ID=cds-AFO84035.1;Parent=JX048594.1.2;Dbxref=NCBI_GP:AFO84035.1;Name=AFO84035.1;Note=ORF2;gbkey=CDS;product=majore capsid protein;protein_id=AFO84035.1
+JX048594.1	Genbank	gene	6681	7307	.	+	.	ID=JX048594.1.3;Name=VP2;
+JX048594.1	Genbank	CDS	6681	7307	.	+	0	ID=cds-AFO84036.1;Parent=JX048594.1.3;Dbxref=NCBI_GP:AFO84036.1;Name=AFO84036.1;Note=ORF3;gbkey=CDS;product=small basic protein;protein_id=AFO84036.1
 
 ##sequence-region KR349276.1 1 7391
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=357231
 KR349276.1	Genbank	region	1	7391	.	+	.	ID=KR349276.1:1..7391;Dbxref=taxon:357231;collection-date=2012;country=Italy;gbkey=Src;genome=genomic;isolate=IT1;isolation-source=feces;mol_type=genomic RNA;nat-host=mouse;strain=MuNoVIT1
 KR349276.1	Genbank	five_prime_UTR	1	5	.	+	.	ID=id-KR349276.1:1..5;gbkey=5'UTR;partial=true;start_range=.,1
-KR349276.1	Genbank	gene	6	5069	.	+	.	ID=gene-ORF1;Name=ORF1;gbkey=Gene;gene=ORF1;gene_biotype=protein_coding
+KR349276.1	Genbank	gene	6	5069	.	+	.	ID=gene-ORF1;Name=POL;gbkey=Gene;gene=ORF1;gene_biotype=protein_coding
 KR349276.1	Genbank	CDS	6	5069	.	+	0	ID=cds-ALS39668.1;Parent=gene-ORF1;Dbxref=NCBI_GP:ALS39668.1;Name=ALS39668.1;gbkey=CDS;gene=ORF1;product=polyprotein;protein_id=ALS39668.1
-KR349276.1	Genbank	gene	5056	6681	.	+	.	ID=gene-ORF2;Name=ORF2;gbkey=Gene;gene=ORF2;gene_biotype=protein_coding
+KR349276.1	Genbank	gene	5056	6681	.	+	.	ID=gene-ORF2;Name=VP1;gbkey=Gene;gene=ORF2;gene_biotype=protein_coding
 KR349276.1	Genbank	CDS	5056	6681	.	+	0	ID=cds-ALS39669.1;Parent=gene-ORF2;Dbxref=NCBI_GP:ALS39669.1;Name=ALS39669.1;gbkey=CDS;gene=ORF2;product=capsid protein;protein_id=ALS39669.1
-KR349276.1	Genbank	gene	6681	7307	.	+	.	ID=gene-ORF3;Name=ORF3;gbkey=Gene;gene=ORF3;gene_biotype=protein_coding
+KR349276.1	Genbank	gene	6681	7307	.	+	.	ID=gene-ORF3;Name=VP2;gbkey=Gene;gene=ORF3;gene_biotype=protein_coding
 KR349276.1	Genbank	CDS	6681	7307	.	+	0	ID=cds-ALS39670.1;Parent=gene-ORF3;Dbxref=NCBI_GP:ALS39670.1;Name=ALS39670.1;gbkey=CDS;gene=ORF3;product=small basic protein;protein_id=ALS39670.1
 KR349276.1	Genbank	three_prime_UTR	7308	7391	.	+	.	ID=id-KR349276.1:7308..7391;gbkey=3'UTR
 
 ##sequence-region MF973199.1 1 7382
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=357231
 MF973199.1	Genbank	region	1	7382	.	+	.	ID=MF973199.1:1..7382;Dbxref=taxon:357231;collection-date=2016;country=China;gbkey=Src;genome=genomic;genotype=GV;isolate=SDHD-46;isolation-source=intestinal contents;mol_type=genomic RNA;nat-host=mouse
-MF973199.1	Genbank	CDS	6	5066	.	+	0	ID=cds-ATI21290.1;Dbxref=NCBI_GP:ATI21290.1;Name=ATI21290.1;gbkey=CDS;product=nonstructural polyprotein;protein_id=ATI21290.1
-MF973199.1	Genbank	CDS	5053	6681	.	+	0	ID=cds-ATI21291.1;Dbxref=NCBI_GP:ATI21291.1;Name=ATI21291.1;gbkey=CDS;product=capsid protein;protein_id=ATI21291.1
-MF973199.1	Genbank	CDS	5066	5707	.	+	0	ID=cds-ATI21293.1;Dbxref=NCBI_GP:ATI21293.1;Name=ATI21293.1;gbkey=CDS;product=ORF4 protein;protein_id=ATI21293.1
-MF973199.1	Genbank	CDS	6681	7307	.	+	0	ID=cds-ATI21292.1;Dbxref=NCBI_GP:ATI21292.1;Name=ATI21292.1;gbkey=CDS;product=small basic protein;protein_id=ATI21292.1
+MF973199.1	Genbank	gene	6	5066	.	+	.	ID=MF973199.1.1;Name=POL;
+MF973199.1	Genbank	CDS	6	5066	.	+	0	ID=cds-ATI21290.1;Parent==MF973199.1.1;Dbxref=NCBI_GP:ATI21290.1;Name=ATI21290.1;gbkey=CDS;product=nonstructural polyprotein;protein_id=ATI21290.1
+MF973199.1	Genbank	gene	5053	6681	.	+	.	ID=MF973199.1.2;Name=VP1;
+MF973199.1	Genbank	CDS	5053	6681	.	+	0	ID=cds-ATI21291.1;Parent=MF973199.1.2;Dbxref=NCBI_GP:ATI21291.1;Name=ATI21291.1;gbkey=CDS;product=capsid protein;protein_id=ATI21291.1
+MF973199.1	Genbank	gene	5066	5707	.	+	.	ID=MF973199.1.3;Name=VF1;
+MF973199.1	Genbank	CDS	5066	5707	.	+	0	ID=cds-ATI21293.1;Parent=MF973199.1.3;Dbxref=NCBI_GP:ATI21293.1;Name=ATI21293.1;gbkey=CDS;product=ORF4 protein;protein_id=ATI21293.1
+MF973199.1	Genbank	gene	6681	7307	.	+	.	ID=MF973199.1.4;Name=VP2;
+MF973199.1	Genbank	CDS	6681	7307	.	+	0	ID=cds-ATI21292.1;Parent=MF973199.1.4;Dbxref=NCBI_GP:ATI21292.1;Name=ATI21292.1;gbkey=CDS;product=small basic protein;protein_id=ATI21292.1
 
