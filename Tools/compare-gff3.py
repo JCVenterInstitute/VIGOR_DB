@@ -136,11 +136,11 @@ def build_tree(infile, source="notset"):
 
 def check_phase( e1,e2):
     if e1[E_PHASE] != e2[E_PHASE]:
-        return '{} {} phase {} != phase {}'.format( e1[E_SEQNAME], e1[E_TYPE], e1[E_PHASE], entry2[E_PHASE])
+        return '{} {} phase {} != phase {}'.format( e1[E_SEQNAME], e1[E_TYPE], e1[E_PHASE], e2[E_PHASE])
 
 def check_strand(e1,e2):
     if e1[E_STRAND] != e2[E_STRAND]:
-        return '{} {} strand {} != strand {}'.format( e1[E_SEQNAME], e1[E_TYPE], e1[E_STRAND], entry2[E_STRAND])
+        return '{} {} strand {} != strand {}'.format( e1[E_SEQNAME], e1[E_TYPE], e1[E_STRAND], e2[E_STRAND])
 
 def check_range(e1,e2):
     if e1[E_RANGE] != e2[E_RANGE]:
