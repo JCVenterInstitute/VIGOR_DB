@@ -60,7 +60,7 @@ KJ955492.1	Genbank	gene	5	5104	.	+	.	ID=KJ955492.1.1;Name=POL;
 KJ955492.1	Genbank	CDS	5	5104	.	+	0	ID=cds-AIL49839.1;Parent=KJ955492.1.1;Dbxref=NCBI_GP:AIL49839.1;Name=AIL49839.1;gbkey=CDS;product=non-structural polyprotein;protein_id=AIL49839.1
 KJ955492.1	Genbank	gene	5085	6707	.	+	.	ID=KJ955492.1.2;Name=VP1;
 KJ955492.1	Genbank	CDS	5085	6707	.	+	0	ID=cds-AIL49840.1;Parent=KJ955492.1.2;Dbxref=NCBI_GP:AIL49840.1;Name=AIL49840.1;gbkey=CDS;product=major capsid protein;protein_id=AIL49840.1
-KJ955492.1	Genbank	gene	6707	7513	.	+	.ID=KJ955492.1.3;Name=VP2;
+KJ955492.1	Genbank	gene	6707	7513	.	+	.	ID=KJ955492.1.3;Name=VP2;
 KJ955492.1	Genbank	CDS	6707	7513	.	+	0	ID=cds-AIL49841.1;Parent=KJ955492.1.3;Dbxref=NCBI_GP:AIL49841.1;Name=AIL49841.1;gbkey=CDS;product=minor capsid protein;protein_id=AIL49841.1
 KJ955492.1	Genbank	three_prime_UTR	7514	7564	.	+	.	ID=id-KJ955492.1:7514..7564;gbkey=3'UTR
 

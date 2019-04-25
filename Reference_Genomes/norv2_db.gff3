@@ -4,9 +4,9 @@ HQ392821.1	Genbank	region	1	7548	.	+	.	ID=HQ392821.1:1..7548;Dbxref=taxon:108868
 HQ392821.1	Genbank	five_prime_UTR	1	5	.	+	.	ID=id-HQ392821.1:1..5;gbkey=5'UTR
 HQ392821.1	Genbank	gene	6	5087	.	+	.	ID=HQ392821.1.1;Name=POL;
 HQ392821.1	Genbank	CDS	6	5087	.	+	0	ID=cds-AEP04092.1;Parent=HQ392821.1.1;Dbxref=NCBI_GP:AEP04092.1;Name=AEP04092.1;gbkey=CDS;product=polyprotein;protein_id=AEP04092.1
-HQ392821.1	Genbank	gene	5071	6714	.	+	ID=HQ392821.1.2;Name=VP1;
-HQ392821.1	Genbank	CDS	5071	6714	.	+	0	ID=cds-AEP04093.1;Parent=ID=HQ392821.1.2;Dbxref=NCBI_GP:AEP04093.1;Name=AEP04093.1;gbkey=CDS;product=major capsid protein;protein_id=AEP04093.1
-HQ392821.1	Genbank	gene	6714	7475	.	+	ID=HQ392821.1.3;Name=VP2;
+HQ392821.1	Genbank	gene	5071	6714	.	+	.	ID=HQ392821.1.2;Name=VP1;
+HQ392821.1	Genbank	CDS	5071	6714	.	+	0	ID=cds-AEP04093.1;Parent=HQ392821.1.2;Dbxref=NCBI_GP:AEP04093.1;Name=AEP04093.1;gbkey=CDS;product=major capsid protein;protein_id=AEP04093.1
+HQ392821.1	Genbank	gene	6714	7475	.	+	.	ID=HQ392821.1.3;Name=VP2;
 HQ392821.1	Genbank	CDS	6714	7475	.	+	0	ID=cds-AEP04094.1;Parent=HQ392821.1.3;Dbxref=NCBI_GP:AEP04094.1;Name=AEP04094.1;gbkey=CDS;product=minor structural protein;protein_id=AEP04094.1
 
 ##sequence-region KF306214.1 1 7605
@@ -32,7 +32,7 @@ KF944111.3	Genbank	CDS	6727	7491	.	+	0	ID=cds-ALE30634.1;Parent=gene-VP2;Dbxref=
 ##sequence-region KJ196277.1 1 7554
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1529914
 KJ196277.1	Genbank	region	1	7554	.	+	.	ID=KJ196277.1:1..7554;Dbxref=taxon:1529914;collection-date=2001;country=Japan;gbkey=Src;genome=genomic;genotype=GII.P22_GII.5;isolate=Saitama/T49;mol_type=genomic RNA;nat-host=Homo sapiens
-KJ196277.1	Genbank	gene	5	5140	.	+	ID=KJ196277.1.1;Name=POL;
+KJ196277.1	Genbank	gene	5	5140	.	+	.	ID=KJ196277.1.1;Name=POL;
 KJ196277.1	Genbank	CDS	5	5140	.	+	0	ID=cds-AII73719.1;Parent=KJ196277.1.1;Dbxref=NCBI_GP:AII73719.1;Name=AII73719.1;gbkey=CDS;product=polyprotein;protein_id=AII73719.1
 KJ196277.1	Genbank	gene	5121	6743	.	+	.	ID=gene-VP1;Name=VP1;gbkey=Gene;gene=VP1;gene_biotype=protein_coding
 KJ196277.1	Genbank	CDS	5121	6743	.	+	0	ID=cds-AII73720.1;Parent=gene-VP1;Dbxref=NCBI_GP:AII73720.1;Name=AII73720.1;gbkey=CDS;gene=VP1;product=VP1;protein_id=AII73720.1
