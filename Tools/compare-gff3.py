@@ -87,18 +87,22 @@ def parse_attributes(data):
     return attribs
 
 def get_entry(line, linenumber=-1, source="notset"):
-    data = line.split("\t")
-    attributes = parse_attributes(data[ATTRIBUTES])
-    return (data[SEQID],
-            attributes.get(A_ID),
-            data[TYPE],
-            (int(data[START]), int(data[END])),
-            phase(data[PHASE]),
-            data[STRAND],
-            attributes,
-            line,
-            source,
-            linenumber)
+    data = line.split("\t",8)
+    try:
+        attributes = parse_attributes(data[ATTRIBUTES])
+        return (data[SEQID],
+                attributes.get(A_ID),
+                data[TYPE],
+                (int(data[START]), int(data[END])),
+                phase(data[PHASE]),
+                data[STRAND],
+                attributes,
+                line,
+                source,
+                linenumber)
+    except (KeyError,IndexError) as e:
+        print("ERROR: {}:{} formatting error in line {}".format( source, linenumber, line))
+        raise e
 
 def entries(infile, source="notset"):
     structure = {}
