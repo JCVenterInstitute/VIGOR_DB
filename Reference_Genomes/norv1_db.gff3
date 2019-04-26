@@ -55,9 +55,9 @@ KY934262.1	Genbank	CDS	7025	7672	.	+	0	ID=cds-ARI71148.1;Parent=KY934262.1.3;Dbx
 MG049693.1	Genbank	region	1	7602	.	+	.	ID=MG049693.1:1..7602;Dbxref=taxon:122928;collected-by=Chang-Gung Memorial Hospital at Chiayi;collection-date=12-Jan-2009;country=Taiwan;gbkey=Src;genome=genomic;isolate=CYY1;isolation-source=stool;mol_type=genomic RNA;nat-host=Homo sapiens
 MG049693.1	Genbank	gene	1	5358	.	+	.	ID=MG049693.1.1;Name=POL;
 MG049693.1	Genbank	CDS	1	5358	.	+	0	ID=cds-ATN44701.1;Parent=MG049693.1.1;Dbxref=NCBI_GP:ATN44701.1;Name=ATN44701.1;gbkey=CDS;product=nonstructural polyprotein;protein_id=ATN44701.1
-MG049693.1	Genbank	gene		5342	6976	.	+	.	ID=MG049693.1.2;Name=VP1;
+MG049693.1	Genbank	gene	5342	6976	.	+	.	ID=MG049693.1.2;Name=VP1;
 MG049693.1	Genbank	CDS	5342	6976	.	+	0	ID=cds-ATN44702.1;Parent=MG049693.1.2;Dbxref=NCBI_GP:ATN44702.1;Name=ATN44702.1;gbkey=CDS;product=major capsid protein;protein_id=ATN44702.1
-MG049693.1	Genbank	gene		6976	7602	.	+	.	ID=MG049693.1.3;Name=VP2;
+MG049693.1	Genbank	gene	6976	7602	.	+	.	ID=MG049693.1.3;Name=VP2;
 MG049693.1	Genbank	CDS	6976	7602	.	+	0	ID=cds-ATN44703.1;Parent=MG049693.1.3;Dbxref=NCBI_GP:ATN44703.1;Name=ATN44703.1;gbkey=CDS;product=minor capsid protein;protein_id=ATN44703.1
 
 ##sequence-region MH130046.1 1 7734
@@ -95,7 +95,7 @@ MH218730.1	Genbank	CDS	7025	7672	.	+	0	ID=cds-AWR17850.1;Parent=gene-ORF3;Dbxref
 NC_001959.2	RefSeq	region	1	7654	.	+	.	ID=NC_001959.2:1..7654;Dbxref=taxon:122928;gbkey=Src;genome=genomic;mol_type=genomic RNA
 NC_001959.2	RefSeq	five_prime_UTR	1	4	.	+	.	ID=id-NC_001959.2:1..4;gbkey=5'UTR
 NC_001959.2	RefSeq	gene	5	5374	.	+	.	ID=gene-NoVGI_gp1;Dbxref=GeneID:1491970;Name=POL;gbkey=Gene;gene=ORF1;gene_biotype=protein_coding;locus_tag=NoVGI_gp1;old_locus_tag=NVgp1
-NC_001959.2	RefSeq	CDS	5	5374	.	+	0	ID=cds-NP_056820.1;Parent=gene-NoVGI_gp1;Dbxref=Genbank:NP_056820.1,GeneID:1491970;Name=NP_056820.1;Note=ORF1%3B sequence homologies to 2C helicase%2C 3C protease%2C and 3D RNA-dependent RNA polymerase of picornavirus;gbkey=CDS;gene=ORF1;locus_tag=NoVGI_gp1;product=nonstructural polyprotein;protein_id=NP_056820.1
+NC_001959.2	RefSeq	CDS	5	5374	.	+	0	ID=cds-NP_056820.1;Parent=gene-NoVGI_gp1;Dbxref=Genbank:NP_056820.1,GeneID:1491970;Name=NP_056820.1;Note=ORF1%3B sequence homologies to 2C helicase%2C 3C protease%2C and 3D RNA-dependent RNA polymerase of picornavirus;gbkey=CDS;gene=ORF1;locus_tag=NoVGI_gp1;product=nonstructural polyprotein;protein_i7d=NP_056820.1
 NC_001959.2	RefSeq	gene	5358	6950	.	+	.	ID=gene-NoVGI_gp2;Dbxref=GeneID:1491972;Name=VP1;gbkey=Gene;gene=ORF2;gene_biotype=protein_coding;locus_tag=NoVGI_gp2;old_locus_tag=NVgp2
 NC_001959.2	RefSeq	CDS	5358	6950	.	+	0	ID=cds-NP_056821.2;Parent=gene-NoVGI_gp2;Dbxref=Genbank:NP_056821.2,GeneID:1491972;Name=NP_056821.2;Note=ORF2%3B 58kd capsid protein%3B major capsid protein;gbkey=CDS;gene=ORF2;locus_tag=NoVGI_gp2;product=VP1;protein_id=NP_056821.2
 NC_001959.2	RefSeq	gene	6950	7588	.	+	.	ID=gene-NoVGI_gp3;Dbxref=GeneID:1491971;Name=VP2;gbkey=Gene;gene=ORF3;gene_biotype=protein_coding;locus_tag=NoVGI_gp3;old_locus_tag=NVgp3
