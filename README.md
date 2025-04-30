@@ -342,17 +342,58 @@ tiny_exon5
 ### Mature Peptide Files
 
 ## Current status
-Mammarenavirus
-The databases are in the process of migration from VIGOR3 to VIGOR4, but the following virus are considered production ready:
+VIGOR database supports the following viruses:
 
-* Influenza (A & B for human, avian, and swine)
-* West Nile Virus
+* Influenza (A & B for human, avian, and swine, and C for human)
+* SARS-CoV-2
+* West Nile Virus (I and II)
 * Zika Virus
 * Chikungunya Virus
 * Eastern Equine Encephalitis Virus
 * Respiratory Syncytial Virus
-* Rotavirus
+* Rotavirus (A, B, C, F, and G)
 * Enterovirus
 * Lassa Mammarenavirus
+* Alphaviruses (VEEV and EEEV)
+* Antennavirus
+* Bandavirus
+* Beidivirus
+* Cicadellivirus
+* Coguvirus
+* Dengue Virus
+* Embecovirus
+* Feravirus
+* Goukovirus
+* Hantaviridae
+* Hartmanivirus
+* Hibecovirus
+* Horwuvirus
+* Hudivirus
+* Hudovirus
+* Inshuvirus
+* Ixovirus
+* Jonvirus
+* Laulavirus
+* Lentinuvirus
+* Measles Virus
+* Merbecovirus
+* Mobuvirus
+* Monkeypox Virus
+* Nairoviridae
+* Nobecovirus
+* Orthophasmavirus
+* Peribunyaviridae
+* Phasivirus
+* Phlebovirus
+* Pidchovirus
+* Reptarenavirus
+* Rubodvirus
+* Sarbecovirus
+* Sapovirus
+* Sawastrivirus
+* Tenuivirus
+* Uukuvirus
+* Wenrivirus
+* Wuhivirus
 
 
